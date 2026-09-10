@@ -119,9 +119,15 @@ Os requisitos não funcionais referem-se às características e restrições do 
 
 # 3. Modelo de casos de uso
 
+<div align="center">
+
 **Figura 1 – Diagrama de Caso de Uso**
-*Ver no documento word*
-Fonte: Elaborado pelos autores (2026).
+
+<img src="imagens/diagrama-caso-uso.png" alt="Diagrama de Caso de Uso" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ### Casos de Uso de Alto Nível
 
@@ -289,8 +295,15 @@ Após a análise dos aspectos de mercado, técnicos, operacionais e econômicos,
 
 Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio Canvas**, permitindo planejar de forma concisa e visual os principais aspectos da aplicação web, como público-alvo, proposta de valor, canais de distribuição, fontes de receita e estrutura de custos.
 
+<div align="center">
+
 **Figura 2 – Modelo de Negócio Canvas**
-Fonte: Elaborado pelos autores (2026).
+
+<img src="imagens/modelo-negocio-canvas.png" alt="Modelo de Negócio Canvas" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ### O que será elaborado?
 
@@ -321,24 +334,45 @@ O design do DayPlannio é centrado na experiência do usuário, com uma interfac
 
 ### Paleta de cores
 
+<div align="center">
+
 **Figura 3 – Paleta de Cores**
 
+<img src="imagens/paleta-cores.png" alt="Paleta de Cores" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
+
 A paleta de cores do DayPlannio foi cuidadosamente selecionada para transmitir organização, produtividade, simplicidade e confiança, refletindo o propósito da aplicação de auxiliar profissionais autônomos na gestão de sua rotina de forma prática e eficiente.
-Fonte: Elaborado pelos autores (2026).
 
 ### Tipografia
 
 A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Foi escolhida a fonte **Open Sans**, reconhecida por sua clareza, modernidade e versatilidade.
 
+<div align="center">
+
 **Figura 4 – Exemplo Fonte Open Sans**
-Fonte: Adobe (2026).
+
+<img src="imagens/fonte-open-sans.png" alt="Exemplo Fonte Open Sans" width="80%">
+
+*Fonte: Adobe (2026).*
+
+</div>
 
 ### Isotipo
 
 O isotipo escolhido para o DayPlannio desempenha um papel importante na representação visual da aplicação e na comunicação de sua identidade voltada à organização, produtividade e gestão de atividades, buscando transmitir a ideia de planejamento, controle da rotina e praticidade no dia a dia dos profissionais autônomos.
 
+<div align="center">
+
 **Figura 5 – Isotipo**
-Fonte: Elaborado pelos autores (2026).
+
+<img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ### Wireframes
 
@@ -362,16 +396,261 @@ Link do protótipo: <https://www.figma.com/design/RR434kEsmEtgwjU8zBkahQ/DayPlan
 
 A seguir são apresentadas algumas telas elaboradas no sistema:
 
-- Cadastro de Usuário
-- Login de Usuário
-- Redefinição de Senha / Confirmar Código / Nova Senha
-- Agendamentos (visualizar, cadastrar, editar, concluir, cancelar, excluir)
-- Clientes (listar, cadastrar, editar, excluir, histórico)
-- Serviços (listar, cadastrar, editar, excluir)
-- Entradas e Saídas (cadastrar, editar, excluir)
-- Movimentações (diárias, semanais, mensais)
-- Resumos (diários, semanais, mensais)
-- Editar Perfil
+<h3 align="center">Cadastro e acesso</h3>
+
+<div align="center">
+
+<strong>Cadastro de Usuário</strong>
+
+<img src="imagens/cadastro-usuario.png" alt="Cadastro de Usuário" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Login de Usuário</strong>
+
+<img src="imagens/login-usuario.png" alt="Login de Usuário" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Redefinição de Senha</strong>
+
+<img src="imagens/redefinicao-senha.png" alt="Redefinição de Senha" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Confirmar Código</strong>
+
+<img src="imagens/confirmar-codigo.png" alt="Confirmar Código" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Nova Senha</strong>
+
+<img src="imagens/nova-senha.png" alt="Nova Senha" width="65%">
+
+</div>
+
+<h3 align="center">Agendamentos</h3>
+
+<div align="center">
+
+<strong>Agendamentos</strong>
+
+<img src="imagens/agendamentos.png" alt="Agendamentos" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Cadastrar Agendamento</strong>
+
+<img src="imagens/cadastrar-agendamento.png" alt="Cadastrar Agendamento" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Editar Agendamento</strong>
+
+<img src="imagens/editar-agendamento.png" alt="Editar Agendamento" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Concluir Agendamento</strong>
+
+<img src="imagens/concluir-agendamento.png" alt="Concluir Agendamento" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Cancelar Agendamento</strong>
+
+<img src="imagens/cancelar-agendamento.png" alt="Cancelar Agendamento" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Excluir Agendamento</strong>
+
+<img src="imagens/excluir-agendamento.png" alt="Excluir Agendamento" width="65%">
+
+</div>
+
+<h3 align="center">Clientes</h3>
+
+<div align="center">
+
+<strong>Clientes</strong>
+
+<img src="imagens/clientes.png" alt="Clientes" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Cadastrar Cliente</strong>
+
+<img src="imagens/cadastrar-cliente.png" alt="Cadastrar Cliente" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Editar Cliente</strong>
+
+<img src="imagens/editar-cliente.png" alt="Editar Cliente" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Excluir Cliente</strong>
+
+<img src="imagens/excluir-cliente.png" alt="Excluir Cliente" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Histórico do Cliente</strong>
+
+<img src="imagens/historico-cliente.png" alt="Histórico do Cliente" width="65%">
+
+</div>
+
+<h3 align="center">Serviços</h3>
+
+<div align="center">
+
+<strong>Serviços</strong>
+
+<img src="imagens/servicos.png" alt="Serviços" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Cadastrar Serviço</strong>
+
+<img src="imagens/cadastrar-servico.png" alt="Cadastrar Serviço" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Editar Serviço</strong>
+
+<img src="imagens/editar-servico.png" alt="Editar Serviço" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Excluir Serviço</strong>
+
+<img src="imagens/excluir-servico.png" alt="Excluir Serviço" width="65%">
+
+</div>
+
+<h3 align="center">Entradas e Saídas</h3>
+
+<div align="center">
+
+<strong>Cadastro de Entrada e Saída</strong>
+
+<img src="imagens/cadastro-entrada-saida.png" alt="Cadastro de Entrada e Saída" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Editar Entrada e Saída</strong>
+
+<img src="imagens/editar-entrada-saida.png" alt="Editar Entrada e Saída" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Excluir Entrada e Saída</strong>
+
+<img src="imagens/excluir-entrada-saida.png" alt="Excluir Entrada e Saída" width="65%">
+
+</div>
+
+<h3 align="center">Movimentações</h3>
+
+<div align="center">
+
+<strong>Movimentações Diárias</strong>
+
+<img src="imagens/movimentacoes-diarias.png" alt="Movimentações Diárias" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Movimentações Semanais</strong>
+
+<img src="imagens/movimentacoes-semanais.png" alt="Movimentações Semanais" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Movimentações Mensais</strong>
+
+<img src="imagens/movimentacoes-mensais.png" alt="Movimentações Mensais" width="65%">
+
+</div>
+
+<h3 align="center">Resumos</h3>
+
+<div align="center">
+
+<strong>Resumos Diários</strong>
+
+<img src="imagens/resumos-diarios.png" alt="Resumos Diários" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Resumos Semanais</strong>
+
+<img src="imagens/resumos-semanais.png" alt="Resumos Semanais" width="65%">
+
+</div>
+
+<div align="center">
+
+<strong>Resumos Mensais</strong>
+
+<img src="imagens/resumos-mensais.png" alt="Resumos Mensais" width="65%">
+
+</div>
+
+<h3 align="center">Perfil</h3>
+
+<div align="center">
+
+<strong>Editar Perfil</strong>
+
+<img src="imagens/editar-perfil.png" alt="Editar Perfil" width="65%">
+
+</div>
 
 ---
 

@@ -397,260 +397,282 @@ Link do protótipo: <https://www.figma.com/design/RR434kEsmEtgwjU8zBkahQ/DayPlan
 A seguir são apresentadas algumas telas elaboradas no sistema:
 
 <h3 align="center">Cadastro e acesso</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/cadastro-usuario.png" alt="Cadastro de Usuário" width="45%">
 
 <strong>Cadastro de Usuário</strong>
+</td>
+<td align="center">
 
-<img src="imagens/cadastro-usuario.png" alt="Cadastro de Usuário" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/login-usuario.png" alt="Login de Usuário" width="45%">
 
 <strong>Login de Usuário</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/login-usuario.png" alt="Login de Usuário" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/redefinicao-senha.png" alt="Redefinição de Senha" width="45%">
 
 <strong>Redefinição de Senha</strong>
+</td>
+<td align="center">
 
-<img src="imagens/redefinicao-senha.png" alt="Redefinição de Senha" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/confirmar-codigo.png" alt="Confirmar Código" width="45%">
 
 <strong>Confirmar Código</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/confirmar-codigo.png" alt="Confirmar Código" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/nova-senha.png" alt="Nova Senha" width="45%">
 
 <strong>Nova Senha</strong>
-
-<img src="imagens/nova-senha.png" alt="Nova Senha" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Agendamentos</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/agendamentos.png" alt="Agendamentos" width="45%">
 
 <strong>Agendamentos</strong>
+</td>
+<td align="center">
 
-<img src="imagens/agendamentos.png" alt="Agendamentos" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/cadastrar-agendamento.png" alt="Cadastrar Agendamento" width="45%">
 
 <strong>Cadastrar Agendamento</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/cadastrar-agendamento.png" alt="Cadastrar Agendamento" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/editar-agendamento.png" alt="Editar Agendamento" width="45%">
 
 <strong>Editar Agendamento</strong>
+</td>
+<td align="center">
 
-<img src="imagens/editar-agendamento.png" alt="Editar Agendamento" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/concluir-agendamento.png" alt="Concluir Agendamento" width="45%">
 
 <strong>Concluir Agendamento</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/concluir-agendamento.png" alt="Concluir Agendamento" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/cancelar-agendamento.png" alt="Cancelar Agendamento" width="45%">
 
 <strong>Cancelar Agendamento</strong>
+</td>
+<td align="center">
 
-<img src="imagens/cancelar-agendamento.png" alt="Cancelar Agendamento" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/excluir-agendamento.png" alt="Excluir Agendamento" width="45%">
 
 <strong>Excluir Agendamento</strong>
-
-<img src="imagens/excluir-agendamento.png" alt="Excluir Agendamento" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Clientes</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/clientes.png" alt="Clientes" width="45%">
 
 <strong>Clientes</strong>
+</td>
+<td align="center">
 
-<img src="imagens/clientes.png" alt="Clientes" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/cadastrar-cliente.png" alt="Cadastrar Cliente" width="45%">
 
 <strong>Cadastrar Cliente</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/cadastrar-cliente.png" alt="Cadastrar Cliente" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/editar-cliente.png" alt="Editar Cliente" width="45%">
 
 <strong>Editar Cliente</strong>
+</td>
+<td align="center">
 
-<img src="imagens/editar-cliente.png" alt="Editar Cliente" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/excluir-cliente.png" alt="Excluir Cliente" width="45%">
 
 <strong>Excluir Cliente</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/excluir-cliente.png" alt="Excluir Cliente" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/historico-cliente.png" alt="Histórico do Cliente" width="45%">
 
 <strong>Histórico do Cliente</strong>
-
-<img src="imagens/historico-cliente.png" alt="Histórico do Cliente" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Serviços</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/servicos.png" alt="Serviços" width="45%">
 
 <strong>Serviços</strong>
+</td>
+<td align="center">
 
-<img src="imagens/servicos.png" alt="Serviços" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/cadastrar-servico.png" alt="Cadastrar Serviço" width="45%">
 
 <strong>Cadastrar Serviço</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/cadastrar-servico.png" alt="Cadastrar Serviço" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/editar-servico.png" alt="Editar Serviço" width="45%">
 
 <strong>Editar Serviço</strong>
+</td>
+<td align="center">
 
-<img src="imagens/editar-servico.png" alt="Editar Serviço" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/excluir-servico.png" alt="Excluir Serviço" width="45%">
 
 <strong>Excluir Serviço</strong>
-
-<img src="imagens/excluir-servico.png" alt="Excluir Serviço" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Entradas e Saídas</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/cadastro-entrada-saida.png" alt="Cadastro de Entrada e Saída" width="45%">
 
 <strong>Cadastro de Entrada e Saída</strong>
+</td>
+<td align="center">
 
-<img src="imagens/cadastro-entrada-saida.png" alt="Cadastro de Entrada e Saída" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/editar-entrada-saida.png" alt="Editar Entrada e Saída" width="45%">
 
 <strong>Editar Entrada e Saída</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/editar-entrada-saida.png" alt="Editar Entrada e Saída" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/excluir-entrada-saida.png" alt="Excluir Entrada e Saída" width="45%">
 
 <strong>Excluir Entrada e Saída</strong>
-
-<img src="imagens/excluir-entrada-saida.png" alt="Excluir Entrada e Saída" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Movimentações</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/movimentacoes-diarias.png" alt="Movimentações Diárias" width="45%">
 
 <strong>Movimentações Diárias</strong>
+</td>
+<td align="center">
 
-<img src="imagens/movimentacoes-diarias.png" alt="Movimentações Diárias" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/movimentacoes-semanais.png" alt="Movimentações Semanais" width="45%">
 
 <strong>Movimentações Semanais</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/movimentacoes-semanais.png" alt="Movimentações Semanais" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/movimentacoes-mensais.png" alt="Movimentações Mensais" width="45%">
 
 <strong>Movimentações Mensais</strong>
-
-<img src="imagens/movimentacoes-mensais.png" alt="Movimentações Mensais" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Resumos</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/resumos-diarios.png" alt="Resumos Diários" width="45%">
 
 <strong>Resumos Diários</strong>
+</td>
+<td align="center">
 
-<img src="imagens/resumos-diarios.png" alt="Resumos Diários" width="65%">
-
-</div>
-
-<div align="center">
+<img src="imagens/resumos-semanais.png" alt="Resumos Semanais" width="45%">
 
 <strong>Resumos Semanais</strong>
+</td>
+</tr>
+</table>
 
-<img src="imagens/resumos-semanais.png" alt="Resumos Semanais" width="65%">
+<table>
+<tr>
+<td align="center">
 
-</div>
-
-<div align="center">
+<img src="imagens/resumos-mensais.png" alt="Resumos Mensais" width="45%">
 
 <strong>Resumos Mensais</strong>
-
-<img src="imagens/resumos-mensais.png" alt="Resumos Mensais" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 <h3 align="center">Perfil</h3>
+<table>
+<tr>
+<td align="center">
 
-<div align="center">
+<img src="imagens/editar-perfil.png" alt="Editar Perfil" width="45%">
 
 <strong>Editar Perfil</strong>
-
-<img src="imagens/editar-perfil.png" alt="Editar Perfil" width="65%">
-
-</div>
+</td>
+</tr>
+</table>
 
 ---
 

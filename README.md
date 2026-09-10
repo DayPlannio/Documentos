@@ -1,6 +1,4 @@
-# DAYPLANNIO — Aplicativo para Organização de Rotina de Autônomos
-
----
+# DayPlannio - Aplicativo para Organização de Rotina de Autônomos
 
 **Autores:** Alissa Gabriel e Raissa Geovana Araujo.
 

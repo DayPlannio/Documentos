@@ -106,6 +106,7 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF22 | Calcular Lucros | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos em modo diário, semanal ou mensal. |
 | RF23 | Calcular Lucros Geral | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos e registros financeiros avulsos em modo diário, semanal ou mensal. |
 | RF24 | Gerar Relatórios Financeiros | Gerar relatórios diários, semanais e mensais, com filtro por período, podendo exportar em PDF. |
+| RF25 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
 
 ## • Requisitos não funcionais
 

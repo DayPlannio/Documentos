@@ -106,6 +106,24 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF22 | Calcular Lucros | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos em modo diário, semanal ou mensal. |
 | RF23 | Calcular Lucros Geral | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos e registros financeiros avulsos em modo diário, semanal ou mensal. |
 | RF24 | Gerar Relatórios Financeiros | Gerar relatórios diários, semanais e mensais, com filtro por período, podendo exportar em PDF. |
+| RF25 | Realizar Login Administrativo | Permitir que um administrador do sistema faça login pelo portal Web, separado dos usuários/prestadores comuns. |
+| RF26 | Visualizar Logs do Sistema | Permitir que o administrador visualize, pelo portal Web, um histórico paginado de logs/ações realizadas no sistema. |
+| RF27 | Listar Clientes (Admin) | Permitir que o administrador visualize, pelo portal Web, todos os clientes cadastrados na base, de todos os prestadores. |
+| RF28 | Listar Prestadores (Admin) | Permitir que o administrador visualize, pelo portal Web, todos os prestadores (usuários) cadastrados no sistema. |
+| RF29 | Gerar Credenciais do Cliente | Permitir que o prestador, ao cadastrar um cliente no app, gere automaticamente um e-mail de acesso e uma senha provisória para esse cliente. |
+| RF30 | Realizar Login do Cliente | Permitir que o cliente faça login pelo portal Web utilizando o e-mail e a senha provisória gerados pelo prestador. |
+| RF31 | Trocar Senha no Primeiro Acesso | Obrigar que o cliente troque a senha provisória por uma senha própria no primeiro acesso ao portal Web. |
+| RF32 | Definir E-mail Secundário do Cliente | Permitir que o cliente cadastre um e-mail secundário associado ao seu perfil, pelo portal Web. |
+| RF33 | Recuperar Senha do Cliente | Permitir que o cliente solicite e realize redefinição de senha pelo portal Web. |
+| RF34 | Exibir Perfil do Cliente | Permitir que o cliente visualize os próprios dados de perfil pelo portal Web. |
+| RF35 | Fazer Upload de Fotos de Serviço | Permitir que o prestador anexe fotos a um agendamento realizado, podendo marcá-las como públicas ou privadas. |
+| RF36 | Excluir Foto | Permitir que o prestador exclua fotos cadastradas. |
+| RF37 | Exibir Portfólio Público | Disponibilizar, no portal Web, uma página pública de portfólio (marketing/divulgação) com fotos marcadas como públicas, visível sem necessidade de login. |
+| RF38 | Exibir Métricas de Serviço para o Cliente | Permitir que o cliente tenha acesso a métricas sobre os serviços realizados pelo prestador, como últimos serviços, média de tempo por serviço, entre outras. |
+| RF39 | Exibir Métricas de Serviço para o Prestador | Permitir que o prestador tenha acesso a métricas dos próprios serviços, como ganho por tipo de serviço, média de valor por serviço, entre outras. |
+| RF40 | Monitorar Presença por Geocodificação e Geofencing (Status) | Permitir converter o endereço do agendamento em latitude/longitude e monitorar a presença do prestador por geofencing. O prestador define um raio de 50m, 100m, 200m ou 500m, e o aplicativo envia a localização a cada 30 segundos. O sistema atualiza automaticamente os status: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado). |
+| RF41 | Definir Visibilidade do Telefone | Permitir que o prestador cadastre seu telefone de contato e defina se ele será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
+| RF42 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
 
 ## • Requisitos não funcionais
 

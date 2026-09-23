@@ -86,7 +86,7 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF2 | Editar Agendamento | Permitir que o usuário altere detalhes de um serviço previamente agendado. |
 | RF3 | Cancelar Agendamento | Permitir que o usuário cancele um serviço previamente agendado. |
 | RF4 | Concluir Agendamento | Permitir que o usuário conclua um serviço. |
-| RF5 | Visualizar Agenda | Permitir que o usuário visualize sua agenda em diferentes modos: diária, semanal e mensal. |
+| RF5 | Visualizar Agenda | Permitir que o usuário visualize sua agenda. |
 | RF6 | Cadastrar Usuário | Permitir que novos usuários se cadastrem fornecendo nome completo, e-mail, senha, confirmação de senha e telefone. |
 | RF7 | Realizar Login | Permitir que usuários acessem o sistema informando e-mail e senha. |
 | RF8 | Recuperar Senha | Permitir que usuários solicitem a redefinição de senha através do e-mail cadastrado. |
@@ -124,6 +124,7 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF40 | Monitorar Presença por Geocodificação e Geofencing (Status) | Permitir converter o endereço do agendamento em latitude/longitude e monitorar a presença do prestador por geofencing. O prestador define um raio de 50m, 100m, 200m ou 500m, e o aplicativo envia a localização a cada 30 segundos. O sistema atualiza automaticamente os status: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado). |
 | RF41 | Definir Visibilidade do Telefone | Permitir que o prestador cadastre seu telefone de contato e defina se ele será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
 | RF42 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
+| RF43 | Definir Visibilidade da Cidade  |  Permitir que o prestador cadastre sua cidade e defina se ela será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
 
 ## • Requisitos não funcionais
 

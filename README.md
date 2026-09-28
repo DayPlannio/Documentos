@@ -488,26 +488,31 @@ O estudo de viabilidade tem como objetivo analisar os aspectos técnicos, econô
 
 - **Demanda Identificada:** o crescimento do trabalho autônomo e informal no Brasil cresce cada vez mais, e muitos profissionais não têm controle total dos serviços realizados por organizarem essas informações manualmente.
 - **Concorrência:** poucos aplicativos de gerenciamento de serviços para autônomos, em geral pagos e com interfaces mais complexas.
-- **Diferenciais:** foco total nas necessidades de quem trabalha por conta própria, sistema de fácil aprendizado.
-- **Clientes Potenciais:** trabalhadores autônomos da região.
+- **Diferenciais:** foco total nas necessidades de quem trabalha por conta própria, sistema de fácil aprendizado, comprovação de presença no local do atendimento por geofencing, portal web para o cliente acompanhar os serviços realizados para ele, portfólio público para divulgação do trabalho e planos de assinatura de baixo custo, com 7 dias grátis para novos usuários.
+- **Clientes Potenciais:** trabalhadores autônomos da região e os clientes atendidos por esses profissionais.
 
 ### Viabilidade Técnica
 
 - **Recursos Humanos:** execução conduzida pelos próprios alunos, autores do trabalho.
-- **Ferramentas:** C# (linguagem), ASP.NET (backend/API), .NET MAUI (frontend mobile multiplataforma), MongoDB (banco de dados), Git e GitHub (versionamento).
-- **Infraestrutura tecnológica:** computadores e conexão à internet disponibilizados pela FATEC-JAHU.
+- **Ferramentas:** C# (linguagem), ASP.NET (backend/API), .NET MAUI (aplicativo mobile multiplataforma do prestador), ASP.NET (plataforma web cliente e administrador), MongoDB (banco de dados), Git e GitHub (versionamento).
+- **Hospedagem em nuvem:** o banco de dados será hospedado no MongoDB Atlas, e o projeto (API e plataforma web) e o armazenamento das fotos de serviço ficarão no Microsoft Azure.
+- **Serviços de apoio:** geocodificação e mapas (monitoramento de presença) e envio de e-mails (credenciais e recuperação de senha).
+- **Infraestrutura tecnológica:** computadores e conexão à internet disponibilizados pela FATEC-JAHU para o desenvolvimento, e serviços em nuvem para a execução do sistema.
 - Recursos financeiros não foram levantados, pois o projeto possui foco educacional.
 
 ### Viabilidade Operacional
 
-- **Fluxo de Trabalho Simplificado:** foco apenas em informações essenciais para o gerenciamento pelo usuário.
-- **Acessibilidade e Usabilidade:** interface intuitiva, reduzindo problemas de entendimento do sistema.
+- **Fluxo de Trabalho Simplificado:** foco apenas em informações essenciais para o gerenciamento pelo prestador.
+- **Acessibilidade e Usabilidade:** interface intuitiva, reduzindo problemas de entendimento do sistema, com o aplicativo mobile para o prestador e o portal web para o cliente e o administrador.
+- **Disponibilidade:** a hospedagem em nuvem permite acessar o aplicativo e o portal web a qualquer momento e de qualquer lugar, sem que o usuário precise manter servidores próprios.
 - **Geração de Lucros e valores imediatos:** o sistema registra automaticamente os valores inseridos no cálculo do lucro final.
+- **Controle de Acesso e Moderação:** as funcionalidades são liberadas conforme o plano contratado, e o administrador aprova as fotos do portfólio público e as solicitações de assinatura.
 
 ### Viabilidade Econômica
 
-- **Investimento inicial:** desenvolvimento, teste, validação e publicação do aplicativo, custos com ferramentas pagas.
-- **Custos recorrentes:** infraestrutura (hospedagem), atualização, manutenção e divulgação do produto.
+- **Investimento inicial:** desenvolvimento, teste, validação e publicação do aplicativo e da plataforma web, custos com ferramentas pagas.
+- **Custos recorrentes:** hospedagem em nuvem (MongoDB Atlas para o banco de dados e Microsoft Azure para o projeto e o armazenamento de fotos), envio de e-mails, geocodificação, suporte, atualização, manutenção e divulgação do produto.
+- **Fontes de receita:** assinaturas mensais em três planos (Básico, Profissional e Full), com 7 dias grátis no plano Full para novos usuários.
 - **Benefícios Financeiros:** melhor controle financeiro, visualização clara de lucros e despesas, maior organização e produtividade.
 
 ### Conclusão do Estudo de Viabilidade

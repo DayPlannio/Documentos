@@ -498,7 +498,6 @@ O estudo de viabilidade tem como objetivo analisar os aspectos técnicos, econô
 - **Hospedagem em nuvem:** o banco de dados será hospedado no MongoDB Atlas, e o projeto (API e plataforma web) e o armazenamento das fotos de serviço ficarão no Microsoft Azure.
 - **Serviços de apoio:** geocodificação e mapas (monitoramento de presença) e envio de e-mails (credenciais e recuperação de senha).
 - **Infraestrutura tecnológica:** computadores e conexão à internet disponibilizados pela FATEC-JAHU para o desenvolvimento, e serviços em nuvem para a execução do sistema.
-- Recursos financeiros não foram levantados, pois o projeto possui foco educacional.
 
 ### Viabilidade Operacional
 
@@ -517,7 +516,7 @@ O estudo de viabilidade tem como objetivo analisar os aspectos técnicos, econô
 
 ### Conclusão do Estudo de Viabilidade
 
-Após a análise dos aspectos de mercado, técnicos, operacionais e econômicos, conclui-se que o projeto é **viável e coerente com seus objetivos**. As tecnologias escolhidas são compatíveis com os recursos disponíveis, a aplicação é de fácil operação, e a proposta atende a uma necessidade real de organização da rotina de profissionais autônomos. Portanto, o projeto demonstra potencial para ser implementado e aprimorado futuramente.
+Após a análise dos aspectos de mercado, técnicos, operacionais e econômicos, conclui-se que o projeto é viável e coerente com seus objetivos. As tecnologias escolhidas são compatíveis com os recursos disponíveis, a aplicação é de fácil operação, e a proposta atende a uma necessidade real de organização da rotina de profissionais autônomos. Além disso, o modelo de assinaturas em planos oferece uma fonte de receita para a manutenção do produto. Portanto, o projeto demonstra potencial para ser implementado e aprimorado futuramente.
 
 ---
 

@@ -124,7 +124,14 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF40 | Monitorar Presença por Geocodificação e Geofencing (Status) | Permitir converter o endereço do agendamento em latitude/longitude e monitorar a presença do prestador por geofencing. O prestador define um raio de 50m, 100m, 200m ou 500m, e o aplicativo envia a localização a cada 30 segundos. O sistema atualiza automaticamente os status: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado). |
 | RF41 | Definir Visibilidade do Telefone | Permitir que o prestador cadastre seu telefone de contato e defina se ele será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
 | RF42 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
-| RF43 | Definir Visibilidade da Cidade  |  Permitir que o prestador cadastre sua cidade e defina se ela será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
+| RF43 | Definir Visibilidade da Cidade | Permitir que o prestador cadastre sua cidade e defina se ela será exibida publicamente (ex.: no portfólio público) ou mantida privada, visível apenas para o próprio prestador. |
+| RF44 | Exibir Planos Disponíveis | Permitir que o prestador visualize os planos de assinatura (Básico, Profissional e Full), com o valor mensal e as funcionalidades incluídas em cada um. |
+| RF45 | Assinar Plano | Permitir que o prestador escolha e solicite a assinatura de um dos planos disponíveis: Básico (R$ 9,90), Profissional (R$ 19,90) ou Full (R$ 29,90), ficando a ativação sujeita à aprovação do administrador. |
+| RF46 | Alterar Plano | Permitir que o prestador solicite upgrade ou downgrade do plano contratado, ficando a alteração sujeita à aprovação do administrador. |
+| RF47 | Cancelar Assinatura | Permitir que o prestador cancele a assinatura do plano contratado. |
+| RF48 | Controlar Acesso às Funcionalidades por Plano | Liberar ou bloquear automaticamente as funcionalidades conforme o plano aprovado do prestador: Básico (agendamentos, agenda, clientes, histórico, tipos de serviço e perfil), Profissional (tudo do Básico, além de financeiro e métricas do prestador) e Full (tudo do Profissional, além de portfólio público, fotos, área e métricas do cliente e geofencing). |
+| RF49 | Gerenciar Período de Teste Gratuito | Conceder a novos usuários 7 dias gratuitos no plano Full e, ao término do período, solicitar a escolha de um plano. |
+| RF50 | Aprovar ou Recusar Assinatura de Plano | Permitir que o administrador visualize, pelo portal Web, as solicitações de assinatura ou alteração de plano enviadas pelos prestadores e aprove ou recuse cada uma delas. O plano só é ativado após a aprovação. |
 
 ## • Requisitos não funcionais
 

@@ -326,24 +326,76 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 ### O que será elaborado?
 
-**Proposta de valor:** um aplicativo com interface intuitiva, permitindo que qualquer pessoa utilize sem necessitar de muito aprendizado sobre a plataforma, substituindo o trabalho manual do usuário por um gerenciamento automático e simplificado.
+**Proposta de valor:** um aplicativo mobile com interface intuitiva, que permite ao prestador de serviços utilizá-lo sem necessitar de muito aprendizado sobre a plataforma. O DayPlannio substitui o trabalho manual por um gerenciamento automático e simplificado de agenda, clientes, serviços e finanças. Também oferece:
+
+- Comprovação de presença no local do atendimento por geolocalização e geofencing;
+- Portal web para o cliente acompanhar suas métricas e os serviços prestados a ele;
+- Portfólio público para divulgar o trabalho do profissional.
 
 ### Como será elaborado?
 
-- **Parcerias principais:** trabalhadores autônomos.
-- **Atividades principais:** gerenciar os registros de serviços realizados no dia, controlar o fluxo de caixa e a gestão de clientes.
-- **Recursos principais:** equipe de desenvolvimento, internet, plataforma de hospedagem e conteúdo/informações.
+**Parcerias principais:**
+
+- FATEC Jahu: fornece a infraestrutura física e a orientação técnica;
+- Trabalhadores autônomos: responsáveis pela validação do aplicativo;
+- Empresa colaboradora: Gabriel Serviços Gerais;
+- Provedores de mapas e geocodificação: viabilizam o monitoramento de presença por geofencing;
+- Serviço de e-mail: envio de credenciais e recuperação de senha.
+
+**Atividades principais:**
+
+- Prestador (mobile): gerenciar agendamentos e serviços; gerenciar clientes e histórico; registrar entradas e saídas, calcular lucros e gerar relatórios financeiros; gerar credenciais e acesso do cliente; monitorar presença por geofencing;
+- Administrador (web): moderar fotos e manter o portfólio público; administrar usuários, acessos e logs do sistema;
+- Cliente (web): consultar métricas e serviços prestados a ele.
+
+**Recursos principais:**
+
+- Aplicativo mobile (prestador) e plataforma web (cliente e administrador);
+- Equipe de desenvolvimento;
+- Dados de clientes, serviços, agenda e financeiro;
+- Armazenamento de fotos de serviço;
+- Serviços de geolocalização.
 
 ### Para quem será elaborado?
 
-- **Relacionamento com clientes:** projeto desenvolvido junto ao usuário final, com suporte humanizado e aprendizado prático.
-- **Canais:** aplicativo, parcerias locais e recomendações pessoais.
-- **Segmento de clientes:** autônomos locais que não possuem meios automáticos de gerenciar seus serviços.
+**Relacionamento com clientes:**
+
+- Suporte ao usuário;
+- Aprendizado prático no uso da plataforma;
+- 7 dias grátis para novos usuários.
+
+**Canais:**
+
+- Aplicativo mobile (prestador);
+- Plataforma web (cliente e administrador);
+- Portfólio público;
+- Parcerias locais e recomendações pessoais.
+
+**Segmento de clientes:**
+
+- Profissionais autônomos que precisam organizar agenda, clientes, serviços e registros financeiros;
+- Profissionais que desejam acompanhar pagamentos, lucros e histórico de atendimentos;
+- Clientes dos profissionais, que acompanham métricas e os serviços prestados a eles pelo portal web;
+- Administradores da plataforma web, responsáveis por usuários, logs e aprovação de fotos.
 
 ### Quanto vai custar?
 
-- **Estrutura de custo:** desenvolvimento e uso de ferramentas, infraestrutura (servidores, banco de dados, nuvem), manutenção, suporte, publicação e divulgação.
-- **Fontes de receita:** assinaturas mensais, com plano Premium oferecendo experiência sem anúncios e recursos adicionais como exportação de relatórios em PDF.
+**Estrutura de custos:**
+
+- Desenvolvimento e manutenção do aplicativo mobile e da plataforma web;
+- Infraestrutura e serviços necessários ao sistema (hospedagem, armazenamento de fotos, e-mail e geocodificação);
+- Suporte e atualização;
+- Divulgação.
+
+**Fontes de receita:** assinaturas mensais, divididas em três planos:
+
+| Plano | Valor | Funcionalidades |
+|---|---|---|
+| Básico | R$&nbsp;9,90 | Criar, editar e cancelar agendamentos; visualizar agenda; cadastrar clientes; histórico de clientes; cadastrar tipos de serviço; perfil do profissional |
+| Profissional | R$&nbsp;19,90 | Tudo do Básico; entradas e saídas financeiras; cálculo de lucro e lucro geral; relatórios financeiros; métricas do prestador |
+| Full | R$&nbsp;29,90 | Tudo do Profissional; portfólio público; upload de fotos dos serviços; área do cliente e métricas do cliente; geolocalização e geofencing |
+
+Novos usuários ganham 7 dias grátis no plano Full, para testar todos os recursos da plataforma antes de escolher o plano ideal.
 
 ---
 

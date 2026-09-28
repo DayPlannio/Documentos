@@ -159,44 +159,98 @@ Os requisitos não funcionais referem-se às características e restrições do 
 
 | Caso de Uso | Descrição |
 |---|---|
-| Gerenciar usuários | O usuário pode se cadastrar, editar seus dados e realizar login no sistema. |
-| Gerenciar Agendamento | O usuário cadastrado pode criar, editar, cancelar e visualizar agendamentos de serviços. |
-| Gerenciar Clientes | O usuário cadastrado pode cadastrar clientes, registrar histórico de serviços e adicionar observações. |
-| Gerenciar Tipo de Serviço | O usuário cadastrado pode cadastrar, editar e consultar serviços, incluindo tipo, descrição e tempo estimado. |
-| Controle Financeiro | O usuário cadastrado pode registrar tipo (entradas ou saídas), descrição, valor, data e categoria. |
+| Gerenciar Conta | O prestador pode se cadastrar, realizar login, recuperar a senha, editar seus dados e definir a visibilidade do telefone e da cidade. |
+| Gerenciar Assinatura | O prestador pode visualizar os planos, solicitar a assinatura ou a troca de plano, aguardar a aprovação do administrador e cancelar a assinatura. |
+| Gerenciar Clientes | O prestador pode cadastrar, listar e editar clientes, consultar o histórico de serviços e gerar as credenciais de acesso do cliente ao portal. |
+| Gerenciar Agendamentos | O prestador pode criar, editar, cancelar, concluir e visualizar agendamentos de serviços. |
+| Gerenciar Tipo de Serviço | O prestador pode cadastrar, listar, editar e excluir os tipos de serviço, incluindo tipo, descrição e tempo estimado. |
+| Gerenciar Financeiro | O prestador pode registrar, editar e excluir entradas e saídas, calcular lucros e gerar relatórios financeiros. |
+| Gerenciar Fotos e Portfólio | O prestador pode anexar e excluir fotos dos serviços realizados e marcá-las como públicas ou privadas para o portfólio público. |
+| Monitorar Presença (Geofencing) | O prestador tem a presença no local do atendimento monitorada automaticamente por geocodificação e geofencing. |
+| Consultar Métricas do Prestador | O prestador pode consultar métricas dos próprios serviços, como ganho por tipo de serviço e média de valor por serviço. |
+| Acessar Portal do Cliente | O cliente pode acessar o portal web com as credenciais geradas pelo prestador, trocar a senha, definir e-mail secundário e visualizar seu perfil. |
+| Consultar Métricas e Serviços Realizados | O cliente pode consultar as métricas e os serviços que já foram realizados para ele. |
+| Gerenciar Usuários | O administrador pode realizar login administrativo e listar todos os prestadores e clientes cadastrados no sistema. |
+| Visualizar Logs do Sistema | O administrador pode visualizar o histórico paginado de logs e ações realizadas no sistema. |
+| Gerenciar Fotos | O administrador pode aprovar ou recusar as fotos enviadas pelos prestadores para o portfólio público. |
+| Gerenciar Assinaturas | O administrador pode aprovar ou recusar as solicitações de assinatura e de alteração de plano dos prestadores. |
 
 ### Casos de Uso Detalhados
 
 <details>
-<summary><b>Gerenciar Usuários</b></summary>
+<summary><b>Gerenciar Conta</b></summary>
 
-**Ator:** Usuário
+**Ator:** Prestador (aplicativo mobile)
 
-**Pré-condições:** o sistema está disponível; o usuário não possui cadastro (fluxo de criação) ou já possui cadastro (login/edição).
+**Pré-condições:** o sistema está disponível; o prestador não possui cadastro (fluxo de criação) ou já possui cadastro (login/edição).
 
 **Fluxo Principal:**
-1. **Cadastro** — o usuário preenche nome, e-mail, senha e telefone e clica em "Cadastrar".
-2. **Login** — após o cadastro, o usuário informa e-mail e senha e é autenticado.
-3. **Edição de Perfil** — o usuário atualiza seus dados e clica em "Salvar".
+1. **Cadastro** — o prestador preenche nome completo, e-mail, senha, confirmação de senha e telefone e clica em "Cadastrar".
+2. **Login** — o prestador informa e-mail e senha e é autenticado.
+3. **Exibir/Editar Perfil** — o prestador visualiza seus dados, atualiza o que for necessário e clica em "Salvar".
+4. **Definir Visibilidade** — o prestador define se o telefone e a cidade serão exibidos publicamente (ex.: no portfólio público) ou mantidos privados.
 
 **Fluxos Alternativos:**
-- Campos obrigatórios não preenchidos → o sistema exibe alerta e o usuário corrige ou cancela.
-- Informações em formato incorreto (ex.: e-mail sem "@", senha curta) → o sistema rejeita e exibe alerta.
-- Recuperação de senha via "Esqueci minha senha" → o sistema envia link de redefinição.
+- Campos obrigatórios não preenchidos → o sistema exibe alerta e o prestador corrige ou cancela.
+- Informações em formato incorreto (ex.: e-mail sem "@", senha curta, senha e confirmação diferentes) → o sistema rejeita e exibe alerta.
+- Recuperação de senha via "Esqueci minha senha" → o sistema envia link de redefinição para o e-mail cadastrado.
 
-**Pós-condições:** usuário com conta ativa e autenticada, dados salvos e disponíveis, acesso liberado às funcionalidades do sistema.
+**Pós-condições:** conta ativa e autenticada, dados salvos e disponíveis, visibilidade do telefone e da cidade definida, acesso liberado às funcionalidades conforme o plano.
 </details>
 
 <details>
-<summary><b>Gerenciar Agendamento</b></summary>
+<summary><b>Gerenciar Assinatura</b></summary>
 
-**Ator:** Usuário Cadastrado
+**Ator:** Prestador (aplicativo mobile). **Ator secundário:** Administrador (aprovação).
 
-**Pré-condições:** usuário autenticado, com clientes e serviços cadastrados.
+**Pré-condições:** prestador autenticado.
+
+**Fluxo Principal:**
+1. **Exibir Planos** — o prestador visualiza os planos Básico (R$ 9,90), Profissional (R$ 19,90) e Full (R$ 29,90), com as funcionalidades de cada um.
+2. **Solicitar Assinatura ou Alteração** — o prestador escolhe um plano e envia a solicitação (assinatura, upgrade ou downgrade).
+3. **Aguardar Aprovação** — o administrador analisa a solicitação (ver "Gerenciar Assinaturas").
+4. **Ativação** — com a solicitação aprovada, o plano é ativado e as funcionalidades correspondentes são liberadas.
+5. **Cancelar Assinatura** — o prestador pode cancelar o plano contratado.
+
+**Fluxos Alternativos:**
+- Solicitação recusada pelo administrador → o plano atual é mantido.
+- Novo usuário → recebe 7 dias grátis no plano Full; ao término, o sistema solicita a escolha de um plano.
+- Funcionalidade fora do plano contratado → o sistema bloqueia o acesso e informa o plano necessário.
+
+**Pós-condições:** plano ativo (ou período de teste em andamento) e acesso às funcionalidades controlado conforme o plano aprovado.
+</details>
+
+<details>
+<summary><b>Gerenciar Clientes</b></summary>
+
+**Ator:** Prestador (aplicativo mobile)
+
+**Pré-condições:** prestador autenticado.
+
+**Fluxo Principal:**
+1. **Cadastrar Cliente** — nome, telefone, endereço e observações.
+2. **Gerar Credenciais** — ao cadastrar o cliente, o sistema gera automaticamente um e-mail de acesso e uma senha provisória para o portal web.
+3. **Listar/Editar Clientes** — o prestador consulta e atualiza os clientes cadastrados.
+4. **Consultar Histórico de Serviços** — por cliente.
+
+**Fluxos Alternativos:** campos obrigatórios não preenchidos; informações inválidas.
+
+**Pós-condições:** cliente cadastrado com credenciais de acesso e histórico; informações disponíveis para agendamentos e relatórios.
+</details>
+
+<details>
+<summary><b>Gerenciar Agendamentos</b></summary>
+
+**Ator:** Prestador (aplicativo mobile)
+
+**Pré-condições:** prestador autenticado, com clientes e tipos de serviço cadastrados.
 
 **Fluxo Principal:**
 1. **Criar Agendamento** — seleciona cliente, tipo de serviço, data, hora, observações, valor cobrado e custo material, e salva.
-2. **Visualizar Agenda** — em modo diário, semanal ou mensal.
+2. **Editar Agendamento** — altera os detalhes de um serviço agendado.
+3. **Cancelar Agendamento** — cancela um serviço agendado.
+4. **Concluir Agendamento** — marca o serviço como concluído.
+5. **Visualizar Agenda** — em modo diário, semanal ou mensal.
 
 **Fluxos Alternativos:**
 - Campos obrigatórios não preenchidos.
@@ -207,52 +261,197 @@ Os requisitos não funcionais referem-se às características e restrições do 
 </details>
 
 <details>
-<summary><b>Gerenciar Clientes</b></summary>
-
-**Ator:** Usuário Cadastrado
-
-**Pré-condições:** usuário autenticado.
-
-**Fluxo Principal:**
-1. **Cadastrar Cliente** — nome, telefone, endereço e observações.
-2. **Registrar Histórico de Serviços** — por cliente.
-
-**Fluxos Alternativos:** campos não preenchidos; informações inválidas.
-
-**Pós-condições:** cliente cadastrado com histórico; informações disponíveis para agendamentos e relatórios.
-</details>
-
-<details>
 <summary><b>Gerenciar Tipo de Serviço</b></summary>
 
-**Ator:** Usuário Cadastrado
+**Ator:** Prestador (aplicativo mobile)
 
-**Pré-condições:** usuário autenticado.
+**Pré-condições:** prestador autenticado.
 
 **Fluxo Principal:**
-1. **Cadastrar Serviço** — tipo, descrição e tempo estimado.
-2. **Visualizar/Editar Serviço**.
+1. **Cadastrar Tipo de Serviço** — tipo, descrição e tempo estimado.
+2. **Listar/Editar Tipo de Serviço**.
+3. **Excluir Tipo de Serviço**.
 
 **Fluxos Alternativos:** campos não preenchidos; valores inválidos.
 
-**Pós-condições:** serviço cadastrado e disponível para agendamentos e relatórios.
+**Pós-condições:** tipo de serviço cadastrado e disponível para agendamentos e relatórios.
 </details>
 
 <details>
-<summary><b>Controle Financeiro</b></summary>
+<summary><b>Gerenciar Financeiro</b></summary>
 
-**Ator:** Usuário Cadastrado
+**Ator:** Prestador (aplicativo mobile)
 
-**Pré-condições:** usuário autenticado.
+**Pré-condições:** prestador autenticado, com plano Profissional ou Full.
 
 **Fluxo Principal:**
 1. **Registrar Entradas e Saídas** — tipo, descrição, valor, data e categoria.
-2. **Cálculo Automático de Lucros** — lucro bruto e líquido.
-3. **Gerar Relatórios Financeiros** — por período, exportáveis em PDF.
+2. **Editar/Excluir Registros Financeiros**.
+3. **Calcular Lucros** — lucro bruto e líquido, com base nos agendamentos concluídos e nos registros avulsos, em modo diário, semanal ou mensal.
+4. **Gerar Relatórios Financeiros** — por período, exportáveis em PDF.
 
-**Fluxos Alternativos:** dados incompletos.
+**Fluxos Alternativos:** dados incompletos; plano não permite o acesso ao módulo financeiro.
 
 **Pós-condições:** entradas, saídas e lucros armazenados; relatórios exportáveis em PDF.
+</details>
+
+<details>
+<summary><b>Gerenciar Fotos e Portfólio</b></summary>
+
+**Ator:** Prestador (aplicativo mobile). **Ator secundário:** Administrador (aprovação das fotos).
+
+**Pré-condições:** prestador autenticado, com plano Full e com agendamento realizado.
+
+**Fluxo Principal:**
+1. **Anexar Fotos** — o prestador faz o upload de fotos ao agendamento realizado.
+2. **Definir Visibilidade** — cada foto é marcada como pública ou privada.
+3. **Aguardar Aprovação** — as fotos públicas são analisadas pelo administrador (ver "Gerenciar Fotos").
+4. **Exibição no Portfólio** — as fotos aprovadas passam a aparecer no portfólio público, visível sem necessidade de login.
+5. **Excluir Foto** — o prestador pode excluir fotos cadastradas.
+
+**Fluxos Alternativos:**
+- Foto recusada pelo administrador → não é exibida no portfólio público.
+- Arquivo em formato inválido → o sistema rejeita o upload.
+
+**Pós-condições:** fotos armazenadas e portfólio público atualizado apenas com fotos aprovadas.
+</details>
+
+<details>
+<summary><b>Monitorar Presença (Geofencing)</b></summary>
+
+**Ator:** Prestador (aplicativo mobile)
+
+**Pré-condições:** prestador autenticado, com plano Full, com agendamento criado e com permissão de localização concedida ao aplicativo.
+
+**Fluxo Principal:**
+1. **Geocodificação** — o sistema converte o endereço do agendamento em latitude e longitude.
+2. **Definir Raio** — o prestador escolhe o raio de 50 m, 100 m, 200 m ou 500 m.
+3. **Envio de Localização** — o aplicativo envia a localização a cada 30 segundos.
+4. **Atualização de Status** — o sistema atualiza automaticamente: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado).
+
+**Fluxos Alternativos:**
+- Endereço não localizado → o sistema informa e solicita a correção do endereço.
+- Permissão de localização negada → o monitoramento não é iniciado.
+
+**Pós-condições:** status do atendimento atualizado e presença do prestador registrada.
+</details>
+
+<details>
+<summary><b>Consultar Métricas do Prestador</b></summary>
+
+**Ator:** Prestador (aplicativo mobile)
+
+**Pré-condições:** prestador autenticado, com plano Profissional ou Full.
+
+**Fluxo Principal:**
+1. **Consultar Métricas** — o prestador visualiza métricas dos próprios serviços, como ganho por tipo de serviço e média de valor por serviço.
+
+**Fluxos Alternativos:** dados insuficientes → o sistema informa que ainda não há informações para exibir.
+
+**Pós-condições:** métricas exibidas com base nos serviços do prestador.
+</details>
+
+<details>
+<summary><b>Acessar Portal do Cliente</b></summary>
+
+**Ator:** Cliente (plataforma web)
+
+**Pré-condições:** cliente cadastrado pelo prestador, com e-mail de acesso e senha provisória gerados.
+
+**Fluxo Principal:**
+1. **Login** — o cliente acessa o portal com o e-mail e a senha provisória.
+2. **Troca de Senha** — no primeiro acesso, o cliente é obrigado a trocar a senha provisória por uma própria.
+3. **E-mail Secundário** — o cliente pode cadastrar um e-mail secundário no perfil.
+4. **Exibir Perfil** — o cliente visualiza seus dados de perfil.
+
+**Fluxos Alternativos:**
+- Credenciais inválidas → o sistema rejeita o acesso e exibe alerta.
+- Recuperação de senha → o cliente solicita e realiza a redefinição pelo portal.
+- Nova senha e confirmação diferentes → o sistema rejeita e exibe alerta.
+
+**Pós-condições:** cliente autenticado com senha própria e acesso liberado ao portal.
+</details>
+
+<details>
+<summary><b>Consultar Métricas e Serviços Realizados</b></summary>
+
+**Ator:** Cliente (plataforma web)
+
+**Pré-condições:** cliente autenticado no portal, com prestador no plano Full.
+
+**Fluxo Principal:**
+1. **Consultar Serviços Realizados** — o cliente visualiza os serviços que já foram realizados para ele.
+2. **Consultar Métricas** — o cliente visualiza métricas desses serviços, como os últimos serviços e a média de tempo por serviço.
+
+**Fluxos Alternativos:** nenhum serviço realizado até o momento → o sistema informa que não há informações para exibir.
+
+**Pós-condições:** métricas e serviços exibidos apenas com os dados do próprio cliente.
+</details>
+
+<details>
+<summary><b>Gerenciar Usuários</b></summary>
+
+**Ator:** Administrador (plataforma web)
+
+**Pré-condições:** administrador cadastrado no sistema.
+
+**Fluxo Principal:**
+1. **Login Administrativo** — o administrador acessa o portal web, separado do acesso dos prestadores.
+2. **Listar Prestadores** — visualiza todos os prestadores cadastrados.
+3. **Listar Clientes** — visualiza todos os clientes cadastrados, de todos os prestadores.
+
+**Fluxos Alternativos:** credenciais inválidas → o sistema rejeita o acesso e exibe alerta.
+
+**Pós-condições:** administrador autenticado com acesso às listas de usuários.
+</details>
+
+<details>
+<summary><b>Visualizar Logs do Sistema</b></summary>
+
+**Ator:** Administrador (plataforma web)
+
+**Pré-condições:** administrador autenticado.
+
+**Fluxo Principal:**
+1. **Consultar Logs** — o administrador visualiza o histórico paginado de logs e ações realizadas no sistema.
+
+**Fluxos Alternativos:** nenhum registro disponível → o sistema informa que o histórico está vazio.
+
+**Pós-condições:** logs exibidos sem alteração dos registros.
+</details>
+
+<details>
+<summary><b>Gerenciar Fotos</b></summary>
+
+**Ator:** Administrador (plataforma web)
+
+**Pré-condições:** administrador autenticado e fotos públicas enviadas por prestadores aguardando análise.
+
+**Fluxo Principal:**
+1. **Analisar Fotos** — o administrador visualiza as fotos de atendimento enviadas pelos prestadores.
+2. **Aprovar ou Recusar** — o administrador aprova ou recusa cada foto.
+3. **Publicação** — as fotos aprovadas passam a ser exibidas no portfólio público.
+
+**Fluxos Alternativos:** foto recusada → não é exibida no portfólio público.
+
+**Pós-condições:** portfólio público contém apenas fotos aprovadas.
+</details>
+
+<details>
+<summary><b>Gerenciar Assinaturas</b></summary>
+
+**Ator:** Administrador (plataforma web)
+
+**Pré-condições:** administrador autenticado e solicitações de assinatura ou de alteração de plano enviadas por prestadores.
+
+**Fluxo Principal:**
+1. **Analisar Solicitações** — o administrador visualiza as solicitações pendentes.
+2. **Aprovar ou Recusar** — o administrador aprova ou recusa cada solicitação.
+3. **Ativação do Plano** — com a aprovação, o plano do prestador é ativado ou alterado.
+
+**Fluxos Alternativos:** solicitação recusada → o plano atual do prestador é mantido.
+
+**Pós-condições:** plano do prestador atualizado conforme a decisão do administrador.
 </details>
 
 ---

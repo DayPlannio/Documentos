@@ -140,6 +140,7 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF56 | Disponibilizar Contato de Privacidade | Exibir, na política e no Meu Perfil, o e-mail de suporte para dúvidas sobre privacidade e tratamento de dados: suporte.dayplannio@gmail.com. |
 | RF57 | Encerrar Conta do Prestador | Permitir que o prestador encerre sua conta pelo aplicativo mobile, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o prestador deve ser desconectado do aplicativo. |
 | RF58 | Encerrar Conta do Cliente | Permitir que o cliente encerre sua conta pelo portal Web, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o cliente deve ser desconectado do portal. |
+| RF59 | Encerrar Conta por Solicitação ao Administrador | Permitir que o usuário solicite o encerramento de sua conta por meio do e-mail de suporte do sistema. Após receber e verificar a solicitação, o administrador poderá realizar o encerramento da conta, removendo os dados associados conforme as regras de privacidade e proteção de dados. |
 
 ## • Requisitos não funcionais
 
@@ -403,18 +404,20 @@ Os requisitos não funcionais referem-se às características e restrições do 
 <details>
 <summary><b>Gerenciar Usuários</b></summary>
 
-**Ator:** Administrador (plataforma web)
+<b>Ator:</b> Administrador (plataforma web)
 
-**Pré-condições:** administrador cadastrado no sistema.
+<b>Pré-condições:</b> administrador cadastrado no sistema.
 
-**Fluxo Principal:**
-1. **Login Administrativo** — o administrador acessa o portal web, separado do acesso dos prestadores.
-2. **Listar Prestadores** — visualiza todos os prestadores cadastrados.
-3. **Listar Clientes** — visualiza todos os clientes cadastrados, de todos os prestadores.
+<b>Fluxo Principal:</b>
 
-**Fluxos Alternativos:** credenciais inválidas → o sistema rejeita o acesso e exibe alerta.
+<b>Login Administrativo</b> — o administrador acessa o portal web, separado do acesso dos prestadores.
+<b>Listar Prestadores</b> — visualiza todos os prestadores cadastrados.
+<b>Listar Clientes</b> — visualiza todos os clientes cadastrados, de todos os prestadores.
+<b>Encerrar Conta por Solicitação</b> — o administrador recebe uma solicitação de encerramento de conta enviada pelo usuário por meio do e-mail de suporte e, após verificar a solicitação, encerra a conta correspondente.
 
-**Pós-condições:** administrador autenticado com acesso às listas de usuários.
+<b>Fluxos Alternativos:</b> credenciais inválidas → o sistema rejeita o acesso e exibe alerta.
+
+<b>Pós-condições:</b> administrador autenticado com acesso às listas de usuários e possibilidade de encerrar contas mediante solicitação.
 </details>
 
 <details>

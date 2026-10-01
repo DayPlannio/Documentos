@@ -132,12 +132,14 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF48 | Controlar Acesso às Funcionalidades por Plano | Liberar ou bloquear automaticamente as funcionalidades conforme o plano aprovado do prestador: Básico (agendamentos, agenda, clientes, histórico, tipos de serviço e perfil), Profissional (tudo do Básico, além de financeiro e métricas do prestador) e Full (tudo do Profissional, além de portfólio público, fotos, área e métricas do cliente e geofencing). |
 | RF49 | Gerenciar Período de Teste Gratuito | Conceder a novos usuários 7 dias gratuitos no plano Full e, ao término do período, solicitar a escolha de um plano. |
 | RF50 | Aprovar ou Recusar Assinatura de Plano | Permitir que o administrador visualize, pelo portal Web, as solicitações de assinatura ou alteração de plano enviadas pelos prestadores e aprove ou recuse cada uma delas. O plano só é ativado após a aprovação. |
-| RF51 | Exibir Política de Privacidade | Exibir a Política de Privacidade no aplicativo, com as seções: sobre a política, dados que coletamos, uso da localização, como usamos os dados, compartilhamento de dados, armazenamento e segurança, direitos do usuário e contato, informando a data da última atualização. |
+| RF51 | Exibir Política de Privacidade | Exibir a Política de Privacidade no aplicativo mobile do prestador e no portal Web do cliente, com as seções: sobre a política, dados que coletamos, uso da localização, como usamos os dados, compartilhamento de dados, armazenamento e segurança, direitos do usuário e contato, informando a data da última atualização. |
 | RF52 | Exigir Concordância no Cadastro | Exigir que o usuário leia e concorde com a Política de Privacidade para concluir o cadastro. As opções "Concordar" e "Não concordar" só são liberadas depois que o usuário rola a política até o final. Sem a concordância, a conta não é criada. |
-| RF53 | Reler a Política de Privacidade | Permitir que o usuário releia a Política de Privacidade a qualquer momento, na área "Privacidade" do Meu Perfil, e confirme que continua de acordo. |
+| RF53 | Reler a Política de Privacidade | Permitir que o usuário acesse e releia a Política de Privacidade a qualquer momento, por meio da área "Privacidade" do Meu Perfil, tanto no aplicativo mobile do prestador quanto no portal Web do cliente, podendo confirmar que continua de acordo com os termos apresentados. |
 | RF54 | Encerrar Conta ao Revogar a Concordância | Permitir que o usuário que deixar de concordar com a política encerre a conta. Após a confirmação, a conta é encerrada e os dados do usuário são removidos: fotos, clientes, tipos de serviço, agendamentos, registros financeiros, notificações e logs. |
 | RF55 | Controlar a Coleta de Localização | Permitir que o usuário ative ou desative a coleta de localização no Meu Perfil. A localização só é coletada com o consentimento do usuário, para o geofencing do plano Full e enquanto o recurso estiver ativo. Ao desativar, a coleta é interrompida imediatamente. |
 | RF56 | Disponibilizar Contato de Privacidade | Exibir, na política e no Meu Perfil, o e-mail de suporte para dúvidas sobre privacidade e tratamento de dados: suporte.dayplannio@gmail.com. |
+| RF57 | Encerrar Conta do Prestador | Permitir que o prestador encerre sua conta pelo aplicativo mobile, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o prestador deve ser desconectado do aplicativo. |
+| RF58 | Encerrar Conta do Cliente | Permitir que o cliente encerre sua conta pelo portal Web, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o cliente deve ser desconectado do portal. |
 
 ## • Requisitos não funcionais
 
@@ -197,6 +199,7 @@ Os requisitos não funcionais referem-se às características e restrições do 
 2. **Login** — o prestador informa e-mail e senha e é autenticado.
 3. **Exibir/Editar Perfil** — o prestador visualiza seus dados, atualiza o que for necessário e clica em "Salvar".
 4. **Definir Visibilidade** — o prestador define se o telefone e a cidade serão exibidos publicamente (ex.: no portfólio público) ou mantidos privados.
+5. Encerrar Conta — o prestador acessa "Meu Perfil", seleciona "Encerrar Conta", visualiza o aviso sobre a exclusão dos dados e confirma o encerramento. Após a confirmação, a conta é encerrada e o prestador é desconectado do aplicativo.
 
 **Fluxos Alternativos:**
 - Campos obrigatórios não preenchidos → o sistema exibe alerta e o prestador corrige ou cancela.
@@ -371,6 +374,7 @@ Os requisitos não funcionais referem-se às características e restrições do 
 2. **Troca de Senha** — no primeiro acesso, o cliente é obrigado a trocar a senha provisória por uma própria.
 3. **E-mail Secundário** — o cliente pode cadastrar um e-mail secundário no perfil.
 4. **Exibir Perfil** — o cliente visualiza seus dados de perfil.
+5. Encerrar Conta — o cliente acessa "Meu Perfil", seleciona "Encerrar Conta", visualiza o aviso sobre a exclusão dos dados e confirma o encerramento. Após a confirmação, a conta é encerrada e o cliente é desconectado do portal.
 
 **Fluxos Alternativos:**
 - Credenciais inválidas → o sistema rejeita o acesso e exibe alerta.
@@ -460,28 +464,6 @@ Os requisitos não funcionais referem-se às características e restrições do 
 **Fluxos Alternativos:** solicitação recusada → o plano atual do prestador é mantido.
 
 **Pós-condições:** plano do prestador atualizado conforme a decisão do administrador.
-</details>
-
-<details>
-<summary><b>Gerenciar Privacidade</b></summary>
-
-**Ator:** Prestador (aplicativo mobile)
-
-**Pré-condições:** o sistema está disponível; o prestador está em processo de cadastro ou já está autenticado.
-
-**Fluxo Principal:**
-1. **Ler a política** — no cadastro, o prestador abre a Política de Privacidade e rola até o final.
-2. **Concordar** — com as opções liberadas, o prestador escolhe "Concordar" e o cadastro prossegue.
-3. **Reler a política** — no Meu Perfil, na área "Privacidade", o prestador pode reler a política quando quiser e confirmar que continua de acordo.
-4. **Controlar a localização** — no Meu Perfil, o prestador ativa ou desativa a coleta de localização.
-
-**Fluxos Alternativos:**
-- Prestador não concorda no cadastro → a conta não é criada.
-- Prestador não rolou a política até o final → as opções "Concordar" e "Não concordar" permanecem bloqueadas.
-- Prestador deixa de concordar no Meu Perfil → o sistema pede confirmação; ao confirmar, a conta é encerrada, os dados são removidos e o prestador volta à tela de login.
-- Coleta de localização desativada → o monitoramento por geofencing é interrompido imediatamente.
-
-**Pós-condições:** concordância registrada para a criação da conta; localização coletada somente com consentimento; em caso de encerramento, conta e dados removidos.
 </details>
 
 ---

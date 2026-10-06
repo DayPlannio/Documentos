@@ -644,7 +644,7 @@ A paleta de cores do DayPlannio foi cuidadosamente selecionada para transmitir o
 
 ### Tipografia
 
-A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Foi escolhida a fonte **Open Sans**, reconhecida por sua clareza, modernidade e versatilidade.
+A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 4 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 5 apresenta um exemplo de utilização dessa fonte no portal.
 
 <div align="center">
 
@@ -656,13 +656,23 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 </div>
 
+<div align="center">
+
+**Figura 5 – Exemplo Fonte Segoe UI**
+
+<img src="imagens/fonte.png" alt="Exemplo Fonte Segoe UI" width="80%">
+
+*Fonte: Adobe (2026).*
+
+</div>
+
 ### Isotipo
 
 O isotipo escolhido para o DayPlannio desempenha um papel importante na representação visual da aplicação e na comunicação de sua identidade voltada à organização, produtividade e gestão de atividades, buscando transmitir a ideia de planejamento, controle da rotina e praticidade no dia a dia dos profissionais autônomos.
 
 <div align="center">
 
-**Figura 5 – Isotipo**
+**Figura 6 – Isotipo**
 
 <img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
 
@@ -981,6 +991,7 @@ O desenvolvimento deste projeto contribuiu para o aprimoramento das habilidades 
 # 13. Referências
 
 - ADOBE. **Open Sans.** Disponível em: <https://fonts.adobe.com/fonts/open-sans>. Acesso em: 15 abr. 2026.
+- ADOBE. **Segoe UI.** Disponível em: <https://fonts.adobe.com/fonts/segoe-ui>. Acesso em: 6 out. 2026.
 - CANVA. **Canva**. Disponível em: <https://www.canva.com/pt_br/>. Acesso em: mar. 2026.
 - FIGMA. **Figma**. Disponível em: <https://www.figma.com>. Acesso em: abr. 2026.
 - LUCIDCHART. **LucidChart**. Disponível em: <https://www.lucidchart.com>. Acesso em: abr. 2026.

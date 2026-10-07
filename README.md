@@ -688,11 +688,15 @@ Os wireframes foram desenvolvidos com o objetivo de definir a estrutura inicial 
 
 O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar uma experiência intuitiva e organizada aos diferentes perfis de usuários do sistema, estruturada de acordo com as funcionalidades disponíveis para cada tipo de acesso.
 
+<div align="center">
+  
 **Figura 7 – Modelo de Navegação**
 
 <img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
 
 *Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ---
 

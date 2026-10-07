@@ -690,7 +690,7 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 **Figura 7 – Modelo de Navegação**
 
-<img src="imagens/modelo-navegacao" alt="Modelo de Navegação DayPlannio" width="60%">
+<img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
 
 *Fonte: Elaborado pelos autores (2026).*
 

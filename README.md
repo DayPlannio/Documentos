@@ -684,6 +684,9 @@ O isotipo escolhido para o DayPlannio desempenha um papel importante na represen
 
 Os wireframes foram desenvolvidos com o objetivo de definir a estrutura inicial das telas da aplicação, permitindo visualizar a disposição dos elementos e o fluxo de navegação antes da implementação visual definitiva.
 
+Os wireframes estão disponíveis no Figma, por meio do seguinte link: [Acessar os wireframes no Figma](https://www.figma.com/design/RR434kEsmEtgwjU8zBkahQ/DayPlannio?node-id=0-1&t=JTmqGH7lg5nEMBKP-1)
+
+
 ### Modelo de navegação
 
 O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar uma experiência intuitiva e organizada aos diferentes perfis de usuários do sistema, estruturada de acordo com as funcionalidades disponíveis para cada tipo de acesso.
@@ -702,9 +705,9 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 # 10. Protótipo
 
-Foi utilizado o **Figma** na elaboração do protótipo, visando gerar uma representação visual interativa da interface da aplicação web, permitindo aos stakeholders testarem e aprimorarem o conceito antes da implementação final.
+Foi utilizado o **Figma** na elaboração do protótipo, visando gerar uma representação visual interativa da interface da aplicação web e do aplicativo, permitindo aos stakeholders testarem e aprimorarem o conceito antes da implementação final.
 
-Link do protótipo: <https://www.figma.com/design/RR434kEsmEtgwjU8zBkahQ/DayPlannio?node-id=0-1&t=JTmqGH7lg5nEMBKP-1>
+Link do protótipo: [Acessar o protótipo no Figma](https://www.figma.com/design/RR434kEsmEtgwjU8zBkahQ/DayPlannio?node-id=0-1&t=JTmqGH7lg5nEMBKP-1)
 
 ---
 

@@ -491,7 +491,19 @@ A utilização do MongoDB proporciona flexibilidade, escalabilidade e bom desemp
 
 # 6. Diagrama de classes
 
-O MongoDB não utiliza um Diagrama de Classe, pois é um banco de dados não relacional orientado a documentos. Em vez de organizar os dados em tabelas com relações rígidas, o MongoDB armazena informações em coleções de documentos no formato JSON (ou BSON), permitindo maior flexibilidade na modelagem dos dados.
+### Diagrama de Classes
+
+Representa a estrutura do sistema por meio de classes, atributos, métodos e relacionamentos, auxiliando na organização e no desenvolvimento da aplicação.
+
+<div align="center">
+
+**Figura 2 – Diagrama de Classes**
+
+<img src="imagens/diagrama-classes.png" alt="Diagrama de Classes" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ---
 
@@ -541,7 +553,7 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 <div align="center">
 
-**Figura 2 – Modelo de Negócio Canvas**
+**Figura 3 – Modelo de Negócio Canvas**
 
 <img src="imagens/modelo-negocio-canvas.png" alt="Modelo de Negócio Canvas" width="80%">
 
@@ -632,7 +644,7 @@ O design do DayPlannio é centrado na experiência do usuário, com uma interfac
 
 <div align="center">
 
-**Figura 3 – Paleta de Cores**
+**Figura 4 – Paleta de Cores**
 
 <img src="imagens/paleta-cores.png" alt="Paleta de Cores" width="80%">
 
@@ -644,11 +656,11 @@ A paleta de cores do DayPlannio foi cuidadosamente selecionada para transmitir o
 
 ### Tipografia
 
-A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 4 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 5 apresenta um exemplo de utilização dessa fonte no portal.
+A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 5 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 6 apresenta um exemplo de utilização dessa fonte no portal.
 
 <div align="center">
 
-**Figura 4 – Exemplo Fonte Open Sans**
+**Figura 5 – Exemplo Fonte Open Sans**
 
 <img src="imagens/fonte-open-sans.png" alt="Exemplo Fonte Open Sans" width="80%">
 
@@ -658,7 +670,7 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 <div align="center">
 
-**Figura 5 – Exemplo Fonte Segoe UI**
+**Figura 6 – Exemplo Fonte Segoe UI**
 
 <img src="imagens/fonte.png" alt="Exemplo Fonte Segoe UI" width="80%">
 
@@ -672,7 +684,7 @@ O isotipo escolhido para o DayPlannio desempenha um papel importante na represen
 
 <div align="center">
 
-**Figura 6 – Isotipo**
+**Figura 7 – Isotipo**
 
 <img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
 
@@ -693,7 +705,7 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 <div align="center">
   
-**Figura 7 – Modelo de Navegação**
+**Figura 8 – Modelo de Navegação**
 
 <img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
 

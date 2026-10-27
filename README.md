@@ -473,7 +473,47 @@ Os requisitos não funcionais referem-se às características e restrições do 
 
 # 4. Modelo do banco de dados
 
-*(Modelo conceitual, lógico e físico)*
+### Modelo Conceitual
+
+Representa as principais entidades do DayPlannio e seus relacionamentos, apresentando uma visão geral dos dados do sistema.
+
+<div align="center">
+
+**Figura 2 – Modelo Conceitual**
+
+<img src="imagens/modelo-conceitual.png" alt="Modelo Conceitual" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
+
+### Modelo Lógico
+
+Organiza os dados em estruturas que representam as entidades, seus atributos e relacionamentos, servindo de base para a implementação do banco de dados.
+
+<div align="center">
+
+**Figura 3 – Modelo Lógico**
+
+<img src="imagens/modelo-logico.png" alt="Modelo Lógico" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
+
+### Modelo Físico
+
+Apresenta a estrutura de armazenamento dos dados, considerando a implementação técnica e as características do banco de dados utilizado.
+
+<div align="center">
+
+**Figura 4 – Modelo Físico**
+
+<img src="imagens/modelo-fisico.png" alt="Modelo Físico" width="80%">
+
+*Fonte: Elaborado pelos autores (2026).*
+
+</div>
 
 ---
 
@@ -497,7 +537,7 @@ Representa a estrutura do sistema por meio de classes, atributos, métodos e rel
 
 <div align="center">
 
-**Figura 2 – Diagrama de Classes**
+**Figura 5 – Diagrama de Classes**
 
 <img src="imagens/diagrama-classes.png" alt="Diagrama de Classes" width="80%">
 
@@ -553,7 +593,7 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 <div align="center">
 
-**Figura 3 – Modelo de Negócio Canvas**
+**Figura 6 – Modelo de Negócio Canvas**
 
 <img src="imagens/modelo-negocio-canvas.png" alt="Modelo de Negócio Canvas" width="80%">
 
@@ -644,7 +684,7 @@ O design do DayPlannio é centrado na experiência do usuário, com uma interfac
 
 <div align="center">
 
-**Figura 4 – Paleta de Cores**
+**Figura 7 – Paleta de Cores**
 
 <img src="imagens/paleta-cores.png" alt="Paleta de Cores" width="80%">
 
@@ -656,11 +696,11 @@ A paleta de cores do DayPlannio foi cuidadosamente selecionada para transmitir o
 
 ### Tipografia
 
-A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 5 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 6 apresenta um exemplo de utilização dessa fonte no portal.
+A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 8 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 9 apresenta um exemplo de utilização dessa fonte no portal.
 
 <div align="center">
 
-**Figura 5 – Exemplo Fonte Open Sans**
+**Figura 8 – Exemplo Fonte Open Sans**
 
 <img src="imagens/fonte-open-sans.png" alt="Exemplo Fonte Open Sans" width="80%">
 
@@ -670,7 +710,7 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 <div align="center">
 
-**Figura 6 – Exemplo Fonte Segoe UI**
+**Figura 9 – Exemplo Fonte Segoe UI**
 
 <img src="imagens/fonte.png" alt="Exemplo Fonte Segoe UI" width="80%">
 
@@ -684,7 +724,7 @@ O isotipo escolhido para o DayPlannio desempenha um papel importante na represen
 
 <div align="center">
 
-**Figura 7 – Isotipo**
+**Figura 10 – Isotipo**
 
 <img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
 
@@ -705,7 +745,7 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 <div align="center">
   
-**Figura 8 – Modelo de Navegação**
+**Figura 11 – Modelo de Navegação**
 
 <img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
 
@@ -725,9 +765,11 @@ Link do protótipo: [Acessar o protótipo no Figma](https://www.figma.com/design
 
 # 11. Aplicação
 
-A seguir são apresentadas algumas telas elaboradas no sistema:
+A seguir são apresentadas algumas telas elaboradas no sistema. Clique em cada grupo para visualizar as telas.
 
-<h3 align="center">Cadastro e acesso</h3>
+<details>
+<summary><b>Cadastro e acesso</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -773,7 +815,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Agendamentos</h3>
+</details>
+
+<details>
+<summary><b>Agendamentos</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -825,7 +871,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Clientes</h3>
+</details>
+
+<details>
+<summary><b>Clientes</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -871,7 +921,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Serviços</h3>
+</details>
+
+<details>
+<summary><b>Serviços</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -906,7 +960,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Entradas e Saídas</h3>
+</details>
+
+<details>
+<summary><b>Entradas e Saídas</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -935,7 +993,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Movimentações</h3>
+</details>
+
+<details>
+<summary><b>Movimentações</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -964,7 +1026,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Resumos</h3>
+</details>
+
+<details>
+<summary><b>Resumos</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -993,7 +1059,11 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </tr>
 </table>
 
-<h3 align="center">Perfil</h3>
+</details>
+
+<details>
+<summary><b>Perfil</b></summary>
+
 <table>
 <tr>
 <td align="center">
@@ -1004,6 +1074,8 @@ A seguir são apresentadas algumas telas elaboradas no sistema:
 </td>
 </tr>
 </table>
+
+</details>
 
 ---
 

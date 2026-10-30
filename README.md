@@ -82,14 +82,14 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 
 | ID | Requisito | Descrição |
 |----|-----------|-----------|
-| RF1 | Criar Agendamento | Permitir que o usuário cadastrado registre novos serviços em sua agenda, informando cliente, tipo de serviço, data, hora, observações, valor cobrado e custo material. |
-| RF2 | Editar Agendamento | Permitir que o usuário altere detalhes de um serviço previamente agendado. |
+| RF1 | Criar Agendamento | Permitir que o usuário cadastrado registre novos serviços em sua agenda, informando cliente, tipo de serviço, data, hora, observações, valor cobrado e custo material. Não é possível criar um agendamento no mesmo dia e horário de outro agendamento do mesmo prestador que ainda não tenha sido cancelado nem concluído; nesse caso, o sistema recusa o cadastro e exibe a mensagem "Já existe um agendamento para este horário." |
+| RF2 | Editar Agendamento | Permitir que o usuário altere detalhes de um serviço previamente agendado. A edição segue a mesma regra de conflito do RF1: não é permitido alterar o dia e o horário para um já ocupado por outro agendamento não cancelado do mesmo prestador. |
 | RF3 | Cancelar Agendamento | Permitir que o usuário cancele um serviço previamente agendado. |
 | RF4 | Concluir Agendamento | Permitir que o usuário conclua um serviço. |
-| RF5 | Visualizar Agenda | Permitir que o usuário visualize sua agenda. |
+| RF5 | Visualizar Agenda | Permitir que o usuário visualize sua agenda em diferentes modos: agenda diária, semanal e mensal. |
 | RF6 | Cadastrar Usuário | Permitir que novos usuários se cadastrem fornecendo nome completo, e-mail, senha, confirmação de senha e telefone. |
 | RF7 | Realizar Login | Permitir que usuários acessem o sistema informando e-mail e senha. |
-| RF8 | Recuperar Senha | Permitir que usuários solicitem a redefinição de senha através do e-mail cadastrado. |
+| RF8 | Recuperar Senha | Permitir que usuários solicitem a redefinição de senha através do e-mail cadastrado. O código de confirmação enviado por e-mail é válido por 15 minutos e permite no máximo 5 tentativas de verificação; ao excedê-las, o usuário deve solicitar um novo código. O reenvio de um código ainda válido reaproveita o mesmo código e não reinicia a contagem de tentativas. |
 | RF9 | Exibir Informações do Perfil | Permitir que o usuário visualize seus dados pessoais cadastrados. |
 | RF10 | Editar Informações do Perfil | Permitir que o usuário atualize seus dados pessoais, garantindo que as informações estejam sempre corretas. |
 | RF11 | Cadastrar Cliente | Permitir que o usuário adicione clientes com informações básicas: nome, telefone, endereço e observações. |
@@ -103,8 +103,8 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF19 | Registrar Entradas e Saídas | Permitir que o usuário registre tipo (entrada/saída), descrição, valor, data e categoria. |
 | RF20 | Editar Registro Financeiro | Permitir que usuários editem seus registros financeiros cadastrados. |
 | RF21 | Excluir Registro Financeiro | Permitir que usuários excluam seus registros financeiros cadastrados. |
-| RF22 | Calcular Lucros | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos em modo diário, semanal ou mensal. |
-| RF23 | Calcular Lucros Geral | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos e registros financeiros avulsos em modo diário, semanal ou mensal. |
+| RF22 | Calcular Lucros | Calcular automaticamente lucro bruto e lucro líquido com base nos agendamentos concluídos no período (diário, semanal ou mensal), considerando a data de conclusão de cada agendamento. **Lucro bruto** = soma do valor cobrado dos agendamentos concluídos; **lucro líquido** = lucro bruto − soma do custo de material desses agendamentos. Agendamentos nos status Agendado, Em Atendimento, Em Pausa ou Cancelado não entram no cálculo.<br><br>*Exemplo:* em um dia com três agendamentos concluídos — R$ 100,00 (custo de material de R$ 20,00), R$ 150,00 (custo de R$ 30,00) e R$ 80,00 (custo de R$ 10,00) — o lucro bruto é R$ 330,00 e o lucro líquido é R$ 330,00 − R$ 60,00 = R$ 270,00. |
+| RF23 | Calcular Lucros Geral | Calcular automaticamente lucro bruto e lucro líquido considerando, no período (diário, semanal ou mensal), os agendamentos concluídos e os registros financeiros avulsos (RF19). **Lucro bruto** = valor cobrado dos agendamentos concluídos + entradas avulsas; **lucro líquido** = lucro bruto − custo de material dos agendamentos concluídos − saídas avulsas. Os registros avulsos são independentes dos agendamentos: o valor cobrado e o custo de material de um agendamento concluído já entram automaticamente no cálculo e não devem ser lançados novamente como entrada ou saída avulsa, para evitar contagem em duplicidade.<br><br>*Exemplo:* com os mesmos três agendamentos do RF22, uma entrada avulsa de R$ 50,00 e uma saída avulsa de R$ 40,00, o lucro bruto é R$ 330,00 + R$ 50,00 = R$ 380,00 e o lucro líquido é R$ 380,00 − R$ 60,00 − R$ 40,00 = R$ 280,00. |
 | RF24 | Gerar Relatórios Financeiros | Gerar relatórios diários, semanais e mensais, com filtro por período, podendo exportar em PDF. |
 | RF25 | Realizar Login Administrativo | Permitir que um administrador do sistema faça login pelo portal Web, separado dos usuários/prestadores comuns. |
 | RF26 | Visualizar Logs do Sistema | Permitir que o administrador visualize, pelo portal Web, um histórico paginado de logs/ações realizadas no sistema. |
@@ -114,14 +114,14 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF30 | Realizar Login do Cliente | Permitir que o cliente faça login pelo portal Web utilizando o e-mail e a senha provisória gerados pelo prestador. |
 | RF31 | Trocar Senha no Primeiro Acesso | Obrigar que o cliente troque a senha provisória por uma senha própria no primeiro acesso ao portal Web. |
 | RF32 | Definir E-mail Secundário do Cliente | Permitir que o cliente cadastre um e-mail secundário associado ao seu perfil, pelo portal Web. |
-| RF33 | Recuperar Senha do Cliente | Permitir que o cliente solicite e realize redefinição de senha pelo portal Web. |
+| RF33 | Recuperar Senha do Cliente | Permitir que o cliente solicite e realize redefinição de senha pelo portal Web, seguindo as mesmas regras de código do RF8 (validade de 15 minutos, no máximo 5 tentativas e reenvio sem reiniciar a contagem de tentativas). |
 | RF34 | Exibir Perfil do Cliente | Permitir que o cliente visualize os próprios dados de perfil pelo portal Web. |
 | RF35 | Fazer Upload de Fotos de Serviço | Permitir que o prestador anexe fotos a um agendamento realizado, podendo marcá-las como públicas ou privadas. |
-| RF36 | Excluir Foto | Permitir que o prestador exclua fotos cadastradas. |
+| RF36 | Excluir Foto | Permitir que o prestador exclua fotos cadastradas. A exclusão remove o registro da foto no banco de dados e também o arquivo da imagem no armazenamento em nuvem (Azure Blob Storage), de modo que a imagem deixe de ficar disponível. |
 | RF37 | Exibir Portfólio Público | Disponibilizar, no portal Web, uma página pública de portfólio (marketing/divulgação) com fotos marcadas como públicas, visível sem necessidade de login. |
 | RF38 | Exibir Métricas de Serviço para o Cliente | Permitir que o cliente tenha acesso a métricas sobre os serviços realizados pelo prestador, como últimos serviços, média de tempo por serviço, entre outras. |
 | RF39 | Exibir Métricas de Serviço para o Prestador | Permitir que o prestador tenha acesso a métricas dos próprios serviços, como ganho por tipo de serviço, média de valor por serviço, entre outras. |
-| RF40 | Monitorar Presença por Geocodificação e Geofencing (Status) | Permitir converter o endereço do agendamento em latitude/longitude e monitorar a presença do prestador por geofencing. O prestador define um raio de 50m, 100m, 200m ou 500m, e o aplicativo envia a localização a cada 30 segundos. O sistema atualiza automaticamente os status: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado). |
+| RF40 | Monitorar Presença por Geocodificação e Geofencing (Status) | Permitir converter o endereço do agendamento em latitude/longitude e monitorar a presença do prestador por geofencing. O prestador define o raio de monitoramento (20 m, 50 m ou 100 m; padrão de 100 m) e o aplicativo envia a localização a cada 30 segundos. Leituras com precisão de GPS insuficiente são ignoradas, e o sistema considera os agendamentos do prestador em uma janela de 24 horas antes e depois do horário atual. O sistema atualiza automaticamente os status: **Agendado** (atendimento criado), **Em Atendimento** (prestador dentro do raio por 5 minutos consecutivos), **Em Pausa** (prestador fora do raio, com tolerância de 15 m, após o início do atendimento; o tempo em pausa não é contado na duração) e **Concluído** (prestador em pausa por 30 minutos sem retornar, chegada a outro cliente ou conclusão manual, RF4).<br><br>**Raios sobrepostos:** quando a posição do prestador corresponde a mais de um agendamento, apenas um é iniciado — o que já registrou a chegada ou, na ausência deste, o de horário mais próximo do horário atual; os demais permanecem como Agendado. Se já houver outro atendimento em andamento no local, nenhum novo atendimento é iniciado.<br><br>**Ausência de localização:** se o aplicativo deixar de enviar a localização (GPS desligado, falta de internet, permissão negada ou recurso desativado), o sistema não altera o status do atendimento. Um atendimento Em Atendimento ou Em Pausa só é concluído quando o prestador voltar a enviar a localização e o critério acima for atendido, ou quando o prestador o concluir manualmente. |
 | RF41 | Definir Visibilidade do Telefone | Permitir que o prestador cadastre seu telefone de contato e defina se ele será exibido publicamente (ex.: no portfólio público) ou mantido privado, visível apenas para o próprio prestador. |
 | RF42 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
 | RF43 | Definir Visibilidade da Cidade | Permitir que o prestador cadastre sua cidade e defina se ela será exibida publicamente (ex.: no portfólio público) ou mantida privada, visível apenas para o próprio prestador. |
@@ -136,20 +136,24 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF52 | Exigir Concordância no Cadastro | Exigir que o usuário leia e concorde com a Política de Privacidade para concluir o cadastro. As opções "Concordar" e "Não concordar" só são liberadas depois que o usuário rola a política até o final. Sem a concordância, a conta não é criada. |
 | RF53 | Reler a Política de Privacidade | Permitir que o usuário acesse e releia a Política de Privacidade a qualquer momento, por meio da área "Privacidade" do Meu Perfil, tanto no aplicativo mobile do prestador quanto no portal Web do cliente, podendo confirmar que continua de acordo com os termos apresentados. |
 | RF54 | Encerrar Conta ao Revogar a Concordância | Permitir que o usuário que deixar de concordar com a política encerre a conta. Após a confirmação, a conta é encerrada e os dados do usuário são removidos: fotos, clientes, tipos de serviço, agendamentos, registros financeiros, notificações e logs. |
-| RF55 | Controlar a Coleta de Localização | Permitir que o usuário ative ou desative a coleta de localização no Meu Perfil. A localização só é coletada com o consentimento do usuário, para o geofencing do plano Full e enquanto o recurso estiver ativo. Ao desativar, a coleta é interrompida imediatamente. |
+| RF55 | Controlar a Coleta de Localização | Permitir que o usuário ative ou desative a coleta de localização no Meu Perfil. A localização só é coletada com o consentimento do usuário, para o geofencing do plano Full e enquanto o recurso estiver ativo. Ao desativar, a coleta é interrompida imediatamente, e os atendimentos em andamento permanecem no status atual até serem concluídos manualmente (RF40). |
 | RF56 | Disponibilizar Contato de Privacidade | Exibir, na política e no Meu Perfil, o e-mail de suporte para dúvidas sobre privacidade e tratamento de dados: suporte.dayplannio@gmail.com. |
 | RF57 | Encerrar Conta do Prestador | Permitir que o prestador encerre sua conta pelo aplicativo mobile, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o prestador deve ser desconectado do aplicativo. |
 | RF58 | Encerrar Conta do Cliente | Permitir que o cliente encerre sua conta pelo portal Web, por meio da área "Meu Perfil". Antes da confirmação, o sistema deve exibir um aviso informando que o encerramento da conta é permanente e que os dados associados à conta serão removidos. Após a confirmação, a conta deve ser encerrada e o cliente deve ser desconectado do portal. |
 | RF59 | Encerrar Conta por Solicitação ao Administrador | Permitir que o usuário solicite o encerramento de sua conta por meio do e-mail de suporte do sistema. Após receber e verificar a solicitação, o administrador poderá realizar o encerramento da conta, removendo os dados associados conforme as regras de privacidade e proteção de dados. |
+| RF60 | Excluir Agendamento | Permitir que o prestador exclua definitivamente um agendamento, mediante confirmação em tela ("Excluir Agendamento?"), que informa que a ação não pode ser desfeita. Somente o prestador dono do agendamento (ou o administrador) pode excluí-lo. Efeitos da exclusão: (a) o agendamento deixa de aparecer na agenda e no histórico do cliente (RF14); (b) se o agendamento estava concluído, seu valor cobrado e seu custo de material deixam de compor os lucros, relatórios e métricas (RF22, RF23, RF24, RF38 e RF39); (c) os registros financeiros avulsos (RF19) não são afetados; (d) a exclusão é registrada nos logs do sistema. Para manter o registro do atendimento no histórico, deve-se usar o cancelamento (RF3) em vez da exclusão. |
+| RF61 | Excluir Cliente | Permitir que o prestador exclua um cliente cadastrado, mediante confirmação em tela ("Excluir Cliente?"), que informa que a ação não pode ser desfeita. Somente o prestador dono do cadastro (ou o administrador) pode excluí-lo. A exclusão remove o cadastro do cliente, o acesso do cliente ao portal Web e todos os agendamentos desse cliente, futuros e já realizados, além das fotos desses atendimentos (registro e arquivo no armazenamento em nuvem, conforme o RF36). Com isso, o histórico do cliente (RF14) é apagado e os agendamentos concluídos excluídos deixam de compor os lucros, relatórios e métricas (RF22, RF23, RF24, RF38 e RF39); os registros financeiros avulsos (RF19) não são afetados. A exclusão é registrada nos logs do sistema. Quando é o próprio cliente que encerra a conta (RF58), seus agendamentos futuros são removidos da agenda e o prestador é notificado (RF62). |
+| RF62 | Exibir Notificações | Permitir que o prestador visualize, no aplicativo, as notificações do sistema com indicação das não lidas e marque cada uma como lida. O aplicativo consulta novas notificações automaticamente a cada 15 segundos. São geradas notificações, entre outros eventos, quando: a foto enviada fica em análise; o administrador aprova ou recusa uma foto (RF42); a solicitação de assinatura ou alteração de plano é aprovada ou recusada (RF50); e um cliente encerra a conta, com o cancelamento de seus agendamentos futuros (RF58). |
 
 ## • Requisitos não funcionais
 
 Os requisitos não funcionais referem-se às características e restrições do sistema que não estão diretamente relacionadas às suas funcionalidades principais, mas que são essenciais para garantir sua qualidade, desempenho e usabilidade.
 
-- **RNF1 — Desempenho:** a aplicação deve ter carregamento rápido, mesmo em conexões de internet mais lentas, para garantir uma boa experiência de usuário.
-- **RNF2 — Usabilidade:** a interface da aplicação deve ser intuitiva e fácil de usar, com navegação clara e design responsivo, para que os usuários possam encontrar facilmente as informações de interesse.
+- **RNF1 — Desempenho:** em conexão 4G, as telas principais do aplicativo (agenda, clientes, serviços e financeiro) devem carregar em até 3 segundos e as operações de gravação (criar, editar e excluir) devem responder em até 3 segundos. Em conexão lenta (3G, cerca de 1,5 Mbps), esses tempos podem chegar a até 8 segundos, sem travamentos da interface.
+- **RNF2 — Usabilidade:** a interface da aplicação deve ser intuitiva e fácil de usar, com navegação clara e design responsivo, para que os usuários encontrem facilmente seus agendamentos, clientes, serviços e registros financeiros. Critério de avaliação: em teste com pelo menos 5 usuários, no mínimo 80% devem conseguir cadastrar um cliente e criar um agendamento em até 3 minutos, sem ajuda.
 - **RNF3 — Manutenibilidade:** o código-fonte da aplicação deve ser bem documentado, seguindo padrões de codificação e boas práticas de desenvolvimento, para facilitar a manutenção e futuras atualizações do sistema.
 - **RNF4 — Privacidade e proteção de dados:** os dados pessoais devem ser tratados conforme a Política de Privacidade: não são vendidos nem alugados, ficam em serviços protegidos com acesso restrito, a senha não é exposta em texto puro, a localização só é coletada com o consentimento do usuário e o usuário pode solicitar a exclusão da conta e dos seus dados.
+- **RNF5 — Segurança e controle de acesso:** a comunicação entre o aplicativo, o portal Web e a API deve ocorrer exclusivamente por HTTPS (TLS); o aplicativo não deve enviar credenciais por conexão HTTP. O acesso aos dados exige autenticação e cada perfil acessa somente o que lhe cabe: as funcionalidades administrativas (portal do administrador, aprovação de planos e fotos, listagem de todos os clientes e prestadores e logs) são restritas ao perfil Administrador, validado no servidor; um prestador ou cliente só pode consultar, alterar ou excluir os próprios dados, e a tentativa de acessar dados de outro usuário deve ser negada (HTTP 403), com a propriedade do registro sempre conferida contra a identidade da sessão autenticada. Para dificultar acessos indevidos, o login deve ser bloqueado temporariamente após falhas consecutivas e o código de recuperação de senha deve aceitar no máximo 5 tentativas, sem que o reenvio de um código ainda válido reinicie essa contagem (RF8). As respostas da API não devem expor dados sensíveis, como senha e código de recuperação.
 
 ---
 
@@ -171,13 +175,14 @@ Os requisitos não funcionais referem-se às características e restrições do 
 |---|---|
 | Gerenciar Conta | O prestador pode se cadastrar, realizar login, recuperar a senha, editar seus dados e definir a visibilidade do telefone e da cidade. |
 | Gerenciar Assinatura | O prestador pode visualizar os planos, solicitar a assinatura ou a troca de plano, aguardar a aprovação do administrador e cancelar a assinatura. |
-| Gerenciar Clientes | O prestador pode cadastrar, listar e editar clientes, consultar o histórico de serviços e gerar as credenciais de acesso do cliente ao portal. |
-| Gerenciar Agendamentos | O prestador pode criar, editar, cancelar, concluir e visualizar agendamentos de serviços. |
+| Gerenciar Clientes | O prestador pode cadastrar, listar, editar e excluir clientes, consultar o histórico de serviços e gerar as credenciais de acesso do cliente ao portal. |
+| Gerenciar Agendamentos | O prestador pode criar, editar, cancelar, concluir, excluir e visualizar agendamentos de serviços. |
 | Gerenciar Tipo de Serviço | O prestador pode cadastrar, listar, editar e excluir os tipos de serviço, incluindo tipo, descrição e tempo estimado. |
 | Gerenciar Financeiro | O prestador pode registrar, editar e excluir entradas e saídas, calcular lucros e gerar relatórios financeiros. |
 | Gerenciar Fotos e Portfólio | O prestador pode anexar e excluir fotos dos serviços realizados e marcá-las como públicas ou privadas para o portfólio público. |
 | Monitorar Presença (Geofencing) | O prestador tem a presença no local do atendimento monitorada automaticamente por geocodificação e geofencing. |
 | Consultar Métricas do Prestador | O prestador pode consultar métricas dos próprios serviços, como ganho por tipo de serviço e média de valor por serviço. |
+| Receber Notificações | O prestador visualiza as notificações do sistema (fotos, planos e encerramento de conta de clientes) e as marca como lidas. |
 | Acessar Portal do Cliente | O cliente pode acessar o portal web com as credenciais geradas pelo prestador, trocar a senha, definir e-mail secundário e visualizar seu perfil. |
 | Consultar Métricas e Serviços Realizados | O cliente pode consultar as métricas e os serviços que já foram realizados para ele. |
 | Gerenciar Usuários | O administrador pode realizar login administrativo e listar todos os prestadores e clientes cadastrados no sistema. |
@@ -205,7 +210,7 @@ Os requisitos não funcionais referem-se às características e restrições do 
 **Fluxos Alternativos:**
 - Campos obrigatórios não preenchidos → o sistema exibe alerta e o prestador corrige ou cancela.
 - Informações em formato incorreto (ex.: e-mail sem "@", senha curta, senha e confirmação diferentes) → o sistema rejeita e exibe alerta.
-- Recuperação de senha via "Esqueci minha senha" → o sistema envia link de redefinição para o e-mail cadastrado.
+- Recuperação de senha via "Esqueci minha senha" → o sistema envia um código de confirmação para o e-mail cadastrado, válido por 15 minutos e com no máximo 5 tentativas; o reenvio de um código ainda válido não reinicia a contagem de tentativas.
 
 **Pós-condições:** conta ativa e autenticada, dados salvos e disponíveis, visibilidade do telefone e da cidade definida, acesso liberado às funcionalidades conforme o plano.
 </details>
@@ -244,8 +249,9 @@ Os requisitos não funcionais referem-se às características e restrições do 
 2. **Gerar Credenciais** — ao cadastrar o cliente, o sistema gera automaticamente um e-mail de acesso e uma senha provisória para o portal web.
 3. **Listar/Editar Clientes** — o prestador consulta e atualiza os clientes cadastrados.
 4. **Consultar Histórico de Serviços** — por cliente.
+5. **Excluir Cliente** — o prestador seleciona "Excluir" e confirma o aviso de que a ação não pode ser desfeita. São removidos o cadastro do cliente, o acesso dele ao portal, todos os agendamentos do cliente e as fotos desses atendimentos (incluindo os arquivos no armazenamento em nuvem).
 
-**Fluxos Alternativos:** campos obrigatórios não preenchidos; informações inválidas.
+**Fluxos Alternativos:** campos obrigatórios não preenchidos; informações inválidas; exclusão cancelada pelo prestador → nada é alterado.
 
 **Pós-condições:** cliente cadastrado com credenciais de acesso e histórico; informações disponíveis para agendamentos e relatórios.
 </details>
@@ -262,12 +268,13 @@ Os requisitos não funcionais referem-se às características e restrições do 
 2. **Editar Agendamento** — altera os detalhes de um serviço agendado.
 3. **Cancelar Agendamento** — cancela um serviço agendado.
 4. **Concluir Agendamento** — marca o serviço como concluído.
-5. **Visualizar Agenda** — em modo diário, semanal ou mensal.
+5. **Excluir Agendamento** — remove definitivamente o agendamento, após confirmação. Se ele estava concluído, seu valor e custo deixam de compor lucros, relatórios e métricas; para manter o registro no histórico, o prestador deve usar o cancelamento.
+6. **Visualizar Agenda** — em modo diário, semanal ou mensal.
 
 **Fluxos Alternativos:**
 - Campos obrigatórios não preenchidos.
 - Dados inválidos (horário/data).
-- Conflito de agendamento no mesmo horário.
+- Conflito de agendamento no mesmo dia e horário de outro agendamento não cancelado → o sistema recusa o cadastro ou a edição e exibe "Já existe um agendamento para este horário."
 
 **Pós-condições:** agendamento registrado e exibido corretamente; em caso de erro, nenhuma alteração é feita.
 </details>
@@ -319,7 +326,7 @@ Os requisitos não funcionais referem-se às características e restrições do 
 2. **Definir Visibilidade** — cada foto é marcada como pública ou privada.
 3. **Aguardar Aprovação** — as fotos públicas são analisadas pelo administrador (ver "Gerenciar Fotos").
 4. **Exibição no Portfólio** — as fotos aprovadas passam a aparecer no portfólio público, visível sem necessidade de login.
-5. **Excluir Foto** — o prestador pode excluir fotos cadastradas.
+5. **Excluir Foto** — o prestador pode excluir fotos cadastradas; a exclusão remove o registro e também o arquivo da imagem no armazenamento em nuvem.
 
 **Fluxos Alternativos:**
 - Foto recusada pelo administrador → não é exibida no portfólio público.
@@ -337,15 +344,34 @@ Os requisitos não funcionais referem-se às características e restrições do 
 
 **Fluxo Principal:**
 1. **Geocodificação** — o sistema converte o endereço do agendamento em latitude e longitude.
-2. **Definir Raio** — o prestador escolhe o raio de 50 m, 100 m, 200 m ou 500 m.
+2. **Definir Raio** — o prestador escolhe o raio de 20 m, 50 m ou 100 m (padrão de 100 m).
 3. **Envio de Localização** — o aplicativo envia a localização a cada 30 segundos.
-4. **Atualização de Status** — o sistema atualiza automaticamente: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio), Em Pausa (prestador fora do raio por até 30 minutos) e Concluído (prestador fora do raio por 30 minutos, sem retorno ou outro atendimento autorizado).
+4. **Atualização de Status** — o sistema atualiza automaticamente: Agendado (atendimento criado), Em Atendimento (prestador dentro do raio por 5 minutos consecutivos), Em Pausa (prestador fora do raio, com tolerância de 15 m, após o início do atendimento) e Concluído (prestador em pausa por 30 minutos sem retornar, chegada a outro cliente ou conclusão manual).
 
 **Fluxos Alternativos:**
 - Endereço não localizado → o sistema informa e solicita a correção do endereço.
 - Permissão de localização negada → o monitoramento não é iniciado.
+- Raios sobrepostos (mais de um agendamento na mesma posição) → apenas um é iniciado: o que já registrou a chegada ou, na ausência deste, o de horário mais próximo; os demais permanecem como Agendado.
+- Sem localização (GPS desligado, sem internet, permissão negada ou recurso desativado) → o status do atendimento não é alterado; ele só é concluído quando a localização voltar a ser enviada e o critério for atendido, ou quando o prestador o concluir manualmente.
 
 **Pós-condições:** status do atendimento atualizado e presença do prestador registrada.
+</details>
+
+<details>
+<summary><b>Receber Notificações</b></summary>
+
+**Ator:** Prestador (aplicativo mobile)
+
+**Pré-condições:** prestador autenticado.
+
+**Fluxo Principal:**
+1. **Receber Notificações** — o aplicativo consulta novas notificações automaticamente a cada 15 segundos.
+2. **Consultar Notificações** — o prestador visualiza a lista, com indicação das não lidas.
+3. **Marcar como Lida** — o prestador marca cada notificação como lida.
+
+**Eventos que geram notificações:** foto enviada e em análise; foto aprovada ou recusada pelo administrador; solicitação de assinatura ou alteração de plano aprovada ou recusada; cliente que encerrou a conta, com o cancelamento dos agendamentos futuros dele.
+
+**Pós-condições:** notificações exibidas e marcadas como lidas conforme a ação do prestador.
 </details>
 
 <details>

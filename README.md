@@ -779,320 +779,269 @@ Link do protótipo: [Acessar o protótipo no Figma](https://www.figma.com/design
 
 ---
 
-# 11. Aplicação
+11. Aplicação
 
-A seguir são apresentadas algumas telas elaboradas no sistema. Clique em cada grupo para visualizar as telas.
+A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlannio, contemplando as funcionalidades disponíveis para prestadores de serviços, clientes e administradores. As interfaces estão organizadas por módulos para facilitar a visualização e compreensão dos recursos implementados.
 
 <details>
-<summary><b>Cadastro e acesso</b></summary>
+<summary><b>Cadastro, autenticação e planos</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 12 – Cadastro de Usuário
 
 <img src="imagens/cadastro-usuario.png" alt="Cadastro de Usuário" width="45%">
 
-<strong>Cadastro de Usuário</strong>
-</td>
-<td align="center">
+Figura 13 – Planos para o Usuário
 
-<img src="imagens/login-usuario.png" alt="Login de Usuário" width="45%">
+<img src="imagens/planos-usuario.png" alt="Planos para o Usuário" width="45%">
 
-<strong>Login de Usuário</strong>
-</td>
-</tr>
-</table>
+Figura 14 – Login do Usuário
 
-<table>
-<tr>
-<td align="center">
+<img src="imagens/login-usuario.png" alt="Login do Usuário" width="45%">
+
+Figura 15 – Redefinição de Senha
 
 <img src="imagens/redefinicao-senha.png" alt="Redefinição de Senha" width="45%">
 
-<strong>Redefinição de Senha</strong>
-</td>
-<td align="center">
+Figura 16 – Confirmar Código
 
 <img src="imagens/confirmar-codigo.png" alt="Confirmar Código" width="45%">
 
-<strong>Confirmar Código</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 17 – Nova Senha
 
 <img src="imagens/nova-senha.png" alt="Nova Senha" width="45%">
 
-<strong>Nova Senha</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Agendamentos</b></summary>
+<summary><b>Gerenciamento de agendamentos</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 18 – Agendamentos
 
 <img src="imagens/agendamentos.png" alt="Agendamentos" width="45%">
 
-<strong>Agendamentos</strong>
-</td>
-<td align="center">
+Figura 19 – Cadastrar Agendamento
 
 <img src="imagens/cadastrar-agendamento.png" alt="Cadastrar Agendamento" width="45%">
 
-<strong>Cadastrar Agendamento</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 20 – Editar Agendamento
 
 <img src="imagens/editar-agendamento.png" alt="Editar Agendamento" width="45%">
 
-<strong>Editar Agendamento</strong>
-</td>
-<td align="center">
+Figura 21 – Concluir Agendamento
 
 <img src="imagens/concluir-agendamento.png" alt="Concluir Agendamento" width="45%">
 
-<strong>Concluir Agendamento</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 22 – Cancelar Agendamento
 
 <img src="imagens/cancelar-agendamento.png" alt="Cancelar Agendamento" width="45%">
 
-<strong>Cancelar Agendamento</strong>
-</td>
-<td align="center">
+Figura 23 – Excluir Agendamento
 
 <img src="imagens/excluir-agendamento.png" alt="Excluir Agendamento" width="45%">
 
-<strong>Excluir Agendamento</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Clientes</b></summary>
+<summary><b>Gerenciamento de clientes</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 24 – Clientes
 
 <img src="imagens/clientes.png" alt="Clientes" width="45%">
 
-<strong>Clientes</strong>
-</td>
-<td align="center">
+Figura 25 – Cadastrar Cliente
 
 <img src="imagens/cadastrar-cliente.png" alt="Cadastrar Cliente" width="45%">
 
-<strong>Cadastrar Cliente</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 26 – Editar Cliente
 
 <img src="imagens/editar-cliente.png" alt="Editar Cliente" width="45%">
 
-<strong>Editar Cliente</strong>
-</td>
-<td align="center">
+Figura 27 – Excluir Cliente
 
 <img src="imagens/excluir-cliente.png" alt="Excluir Cliente" width="45%">
 
-<strong>Excluir Cliente</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 28 – Histórico do Cliente
 
 <img src="imagens/historico-cliente.png" alt="Histórico do Cliente" width="45%">
 
-<strong>Histórico do Cliente</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Serviços</b></summary>
+<summary><b>Gerenciamento de serviços</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 29 – Serviços
 
 <img src="imagens/servicos.png" alt="Serviços" width="45%">
 
-<strong>Serviços</strong>
-</td>
-<td align="center">
+Figura 30 – Cadastrar Serviço
 
 <img src="imagens/cadastrar-servico.png" alt="Cadastrar Serviço" width="45%">
 
-<strong>Cadastrar Serviço</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 31 – Editar Serviço
 
 <img src="imagens/editar-servico.png" alt="Editar Serviço" width="45%">
 
-<strong>Editar Serviço</strong>
-</td>
-<td align="center">
+Figura 32 – Excluir Serviço
 
 <img src="imagens/excluir-servico.png" alt="Excluir Serviço" width="45%">
 
-<strong>Excluir Serviço</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Entradas e Saídas</b></summary>
+<summary><b>Controle de entradas e saídas</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 33 – Cadastro de Entrada e Saída
 
 <img src="imagens/cadastro-entrada-saida.png" alt="Cadastro de Entrada e Saída" width="45%">
 
-<strong>Cadastro de Entrada e Saída</strong>
-</td>
-<td align="center">
+Figura 34 – Editar Entrada e Saída
 
 <img src="imagens/editar-entrada-saida.png" alt="Editar Entrada e Saída" width="45%">
 
-<strong>Editar Entrada e Saída</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 35 – Excluir Entrada e Saída
 
 <img src="imagens/excluir-entrada-saida.png" alt="Excluir Entrada e Saída" width="45%">
 
-<strong>Excluir Entrada e Saída</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Movimentações</b></summary>
+<summary><b>Movimentações financeiras</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 36 – Movimentações Diárias
 
 <img src="imagens/movimentacoes-diarias.png" alt="Movimentações Diárias" width="45%">
 
-<strong>Movimentações Diárias</strong>
-</td>
-<td align="center">
+Figura 37 – Movimentações Semanais
 
 <img src="imagens/movimentacoes-semanais.png" alt="Movimentações Semanais" width="45%">
 
-<strong>Movimentações Semanais</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 38 – Movimentações Mensais
 
 <img src="imagens/movimentacoes-mensais.png" alt="Movimentações Mensais" width="45%">
 
-<strong>Movimentações Mensais</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Resumos</b></summary>
+<summary><b>Resumos financeiros</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 39 – Resumos Diários
 
 <img src="imagens/resumos-diarios.png" alt="Resumos Diários" width="45%">
 
-<strong>Resumos Diários</strong>
-</td>
-<td align="center">
+Figura 40 – Resumos Semanais
 
 <img src="imagens/resumos-semanais.png" alt="Resumos Semanais" width="45%">
 
-<strong>Resumos Semanais</strong>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td align="center">
+Figura 41 – Resumos Mensais
 
 <img src="imagens/resumos-mensais.png" alt="Resumos Mensais" width="45%">
 
-<strong>Resumos Mensais</strong>
-</td>
-</tr>
-</table>
+</div>
 
 </details>
 
 <details>
-<summary><b>Perfil</b></summary>
+<summary><b>Perfil e métricas do prestador</b></summary>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
+
+Figura 42 – Editar Perfil
 
 <img src="imagens/editar-perfil.png" alt="Editar Perfil" width="45%">
 
-<strong>Editar Perfil</strong>
-</td>
-</tr>
-</table>
+Figura 43 – Métricas Mensais
+
+<img src="imagens/metricas-mensais.png" alt="Métricas Mensais" width="45%">
+
+Figura 44 – Métricas Semanais
+
+<img src="imagens/metricas-semanais.png" alt="Métricas Semanais" width="45%">
+
+Figura 45 – Métricas Diárias
+
+<img src="imagens/metricas-diarias.png" alt="Métricas Diárias" width="45%">
+
+</div>
 
 </details>
 
+<details>
+<summary><b>Painel administrativo</b></summary>
+
+<div align="center">
+
+Figura 46 – Painel Administrativo: Clientes Cadastrados
+
+<img src="imagens/admin-clientes-cadastrados.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
+
+Figura 47 – Painel Administrativo: Prestadores Cadastrados
+
+<img src="imagens/admin-prestadores-cadastrados.png" alt="Painel Administrativo - Prestadores Cadastrados" width="70%">
+
+Figura 48 – Painel Administrativo: Logs do Sistema
+
+<img src="imagens/admin-logs-sistema.png" alt="Painel Administrativo - Logs do Sistema" width="70%">
+
+</div>
+
+</details>
+
+<details>
+<summary><b>Portal do cliente e indicadores</b></summary>
+
+<div align="center">
+
+Figura 49 – Perfil do Cliente
+
+<img src="imagens/perfil-cliente.png" alt="Perfil do Cliente" width="45%">
+
+Figura 50 – Meus Indicadores Mensais – Cliente
+
+<img src="imagens/indicadores-mensais-cliente.png" alt="Indicadores Mensais do Cliente" width="45%">
+
+Figura 51 – Meus Indicadores Semanais – Cliente
+
+<img src="imagens/indicadores-semanais-cliente.png" alt="Indicadores Semanais do Cliente" width="45%">
+
+Figura 52 – Meus Indicadores Diários – Cliente
+
+<img src="imagens/indicadores-diarios-cliente.png" alt="Indicadores Diários do Cliente" width="45%">
+
+</div>
+
+</details>
+
+<div align="center">
+
+Fonte de todas as figuras: Elaborado pelos autores (2026).
+
+</div>
 ---
 
 # 12. Considerações finais

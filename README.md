@@ -557,19 +557,9 @@ A utilização do MongoDB proporciona flexibilidade, escalabilidade e bom desemp
 
 # 6. Diagrama de classes
 
-### Diagrama de Classes
+O DayPlannio utiliza o MongoDB, um banco de dados NoSQL orientado a documentos. Diferentemente dos bancos de dados relacionais, o MongoDB organiza as informações em coleções e documentos, sem estabelecer relacionamentos entre tabelas por meio de chaves estrangeiras da forma tradicional.
 
-Representa a estrutura do sistema por meio de classes, atributos, métodos e relacionamentos, auxiliando na organização e no desenvolvimento da aplicação.
-
-<div align="center">
-
-**Figura 5 – Diagrama de Classes**
-
-<img src="imagens/diagrama-classes.png" alt="Diagrama de Classes" width="80%">
-
-*Fonte: Elaborado pelos autores (2026).*
-
-</div>
+Por esse motivo, não será apresentado um diagrama de classes baseado nos relacionamentos entre tabelas. A estrutura dos dados é representada pelos modelos conceitual, lógico e físico apresentados anteriormente, respeitando a organização utilizada pelo banco de dados não relacional.
 
 ---
 
@@ -619,7 +609,7 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 <div align="center">
 
-**Figura 6 – Modelo de Negócio Canvas**
+**Figura 5 – Modelo de Negócio Canvas**
 
 <img src="imagens/modelo-negocio-canvas.png" alt="Modelo de Negócio Canvas" width="80%">
 
@@ -710,7 +700,7 @@ O design do DayPlannio é centrado na experiência do usuário, com uma interfac
 
 <div align="center">
 
-**Figura 7 – Paleta de Cores**
+**Figura 6 – Paleta de Cores**
 
 <img src="imagens/paleta-cores.png" alt="Paleta de Cores" width="80%">
 
@@ -722,11 +712,11 @@ A paleta de cores do DayPlannio foi cuidadosamente selecionada para transmitir o
 
 ### Tipografia
 
-A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 8 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 9 apresenta um exemplo de utilização dessa fonte no portal.
+A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia diretamente a legibilidade, a estética e a experiência do usuário. Para o desenvolvimento da interface do aplicativo mobile, foi escolhida a fonte Open Sans, reconhecida por sua clareza, modernidade e versatilidade, características importantes para a leitura em telas pequenas. A Figura 7 apresenta um exemplo de utilização da fonte no aplicativo. Já no portal web, utiliza-se a fonte Segoe UI, com a fonte padrão do sistema como alternativa, o que garante boa leitura e carregamento rápido nos navegadores. A Figura 8 apresenta um exemplo de utilização dessa fonte no portal.
 
 <div align="center">
 
-**Figura 8 – Exemplo Fonte Open Sans**
+**Figura 7 – Exemplo Fonte Open Sans**
 
 <img src="imagens/fonte-open-sans.png" alt="Exemplo Fonte Open Sans" width="80%">
 
@@ -736,7 +726,7 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 <div align="center">
 
-**Figura 9 – Exemplo Fonte Segoe UI**
+**Figura 8 – Exemplo Fonte Segoe UI**
 
 <img src="imagens/fonte.png" alt="Exemplo Fonte Segoe UI" width="80%">
 
@@ -750,7 +740,7 @@ O isotipo escolhido para o DayPlannio desempenha um papel importante na represen
 
 <div align="center">
 
-**Figura 10 – Isotipo**
+**Figura 90 – Isotipo**
 
 <img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
 
@@ -771,7 +761,7 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 <div align="center">
   
-**Figura 11 – Modelo de Navegação**
+**Figura 10 – Modelo de Navegação**
 
 <img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
 

@@ -779,7 +779,7 @@ Link do protótipo: [Acessar o protótipo no Figma](https://www.figma.com/design
 
 ---
 
-11. Aplicação
+# 11. Aplicação
 
 A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlannio, contemplando as funcionalidades disponíveis para prestadores de serviços, clientes e administradores. As interfaces estão organizadas por módulos para facilitar a visualização e compreensão dos recursos implementados.
 
@@ -1042,6 +1042,7 @@ Figura 52 – Meus Indicadores Diários – Cliente
 Fonte de todas as figuras: Elaborado pelos autores (2026).
 
 </div>
+
 ---
 
 # 12. Considerações finais

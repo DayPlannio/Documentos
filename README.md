@@ -161,9 +161,11 @@ Os requisitos não funcionais referem-se às características e restrições do 
 
 <div align="center">
 
-**Figura 1 – Diagrama de Caso de Uso**
+[**Figura 1 – Diagrama de Caso de Uso**](imagens/figura1.png)
 
-<img src="imagens/diagrama-caso-uso.png" alt="Diagrama de Caso de Uso" width="80%">
+<a href="imagens/figura1.png">
+<img src="imagens/figura1.png" alt="Diagrama de Caso de Uso" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -505,9 +507,11 @@ Representa as principais entidades do DayPlannio e seus relacionamentos, apresen
 
 <div align="center">
 
-**Figura 2 – Modelo Conceitual**
+[**Figura 2 – Modelo Conceitual**](imagens/figura2.png)
 
-<img src="imagens/modelo-conceitual.png" alt="Modelo Conceitual" width="80%">
+<a href="imagens/figura2.png">
+<img src="imagens/figura2.png" alt="Modelo Conceitual" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -519,9 +523,11 @@ Organiza os dados em estruturas que representam as entidades, seus atributos e r
 
 <div align="center">
 
-**Figura 3 – Modelo Lógico**
+[**Figura 3 – Modelo Lógico**](imagens/figura3.png)
 
-<img src="imagens/modelo-logico.png" alt="Modelo Lógico" width="80%">
+<a href="imagens/figura3.png">
+<img src="imagens/figura3.png" alt="Modelo Lógico" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -533,9 +539,11 @@ Apresenta a estrutura de armazenamento dos dados, considerando a implementação
 
 <div align="center">
 
-**Figura 4 – Modelo Físico**
+[**Figura 4 – Modelo Físico**](imagens/figura4.png)
 
-<img src="imagens/modelo-fisico.png" alt="Modelo Físico" width="80%">
+<a href="imagens/figura4.png">
+<img src="imagens/figura4.png" alt="Modelo Físico" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -609,9 +617,11 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 <div align="center">
 
-**Figura 5 – Modelo de Negócio Canvas**
+[**Figura 5 – Modelo de Negócio Canvas**](imagens/figura5.png)
 
-<img src="imagens/modelo-negocio-canvas.png" alt="Modelo de Negócio Canvas" width="80%">
+<a href="imagens/figura5.png">
+<img src="imagens/figura5.png" alt="Modelo de Negócio Canvas" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -700,9 +710,11 @@ O design do DayPlannio é centrado na experiência do usuário, com uma interfac
 
 <div align="center">
 
-**Figura 6 – Paleta de Cores**
+[**Figura 6 – Paleta de Cores**](imagens/figura6.png)
 
-<img src="imagens/paleta-cores.png" alt="Paleta de Cores" width="80%">
+<a href="imagens/figura6.png">
+<img src="imagens/figura6.png" alt="Paleta de Cores" width="80%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -716,9 +728,11 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 <div align="center">
 
-**Figura 7 – Exemplo Fonte Open Sans**
+[**Figura 7 – Exemplo Fonte Open Sans**](imagens/figura7.png)
 
-<img src="imagens/fonte-open-sans.png" alt="Exemplo Fonte Open Sans" width="80%">
+<a href="imagens/figura7.png">
+<img src="imagens/figura7.png" alt="Exemplo Fonte Open Sans" width="80%">
+</a>
 
 *Fonte: Adobe (2026).*
 
@@ -726,9 +740,11 @@ A tipografia é um aspecto fundamental do design do DayPlannio, pois influencia 
 
 <div align="center">
 
-**Figura 8 – Exemplo Fonte Segoe UI**
+[**Figura 8 – Exemplo Fonte Segoe UI**](imagens/figura8.png)
 
-<img src="imagens/fonte.png" alt="Exemplo Fonte Segoe UI" width="80%">
+<a href="imagens/figura8.png">
+<img src="imagens/figura8.png" alt="Exemplo Fonte Segoe UI" width="80%">
+</a>
 
 *Fonte: Adobe (2026).*
 
@@ -740,9 +756,11 @@ O isotipo escolhido para o DayPlannio desempenha um papel importante na represen
 
 <div align="center">
 
-**Figura 90 – Isotipo**
+[**Figura 9 – Isotipo**](imagens/figura9.png)
 
-<img src="imagens/isotipo.png" alt="Isotipo DayPlannio" width="60%">
+<a href="imagens/figura9.png">
+<img src="imagens/figura9.png" alt="Isotipo DayPlannio" width="60%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -761,15 +779,17 @@ O modelo de navegação da plataforma DayPlannio foi projetado para proporcionar
 
 <div align="center">
   
-**Figura 10 – Modelo de Navegação**
+[**Figura 10 – Modelo de Navegação**](imagens/figura10.png)
 
-<img src="imagens/modelo-navegacao.png" alt="Modelo de Navegação DayPlannio" width="60%">
+<a href="imagens/figura10.png">
+<img src="imagens/figura10.png" alt="Modelo de Navegação DayPlannio" width="60%">
+</a>
 
 *Fonte: Elaborado pelos autores (2026).*
 
 </div>
 
----
+
 
 # 10. Protótipo
 
@@ -788,29 +808,41 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-Figura 12 – Cadastro de Usuário
+[**Figura 12 – Cadastro de Usuário**](imagens/figura12.png)
 
-<img src="imagens/cadastro-usuario.png" alt="Cadastro de Usuário" width="45%">
+<a href="imagens/figura12.png">
+<img src="imagens/figura12.png" alt="Cadastro de Usuário" width="45%">
+</a>
 
-Figura 13 – Planos para o Usuário
+[**Figura 13 – Planos para o Usuário**](imagens/figura13.png)
 
-<img src="imagens/planos-usuario.png" alt="Planos para o Usuário" width="45%">
+<a href="imagens/figura13.png">
+<img src="imagens/figura13.png" alt="Planos para o Usuário" width="45%">
+</a>
 
-Figura 14 – Login do Usuário
+[**Figura 14 – Login do Usuário**](imagens/figura14.png)
 
-<img src="imagens/login-usuario.png" alt="Login do Usuário" width="45%">
+<a href="imagens/figura14.png">
+<img src="imagens/figura14.png" alt="Login do Usuário" width="45%">
+</a>
 
-Figura 15 – Redefinição de Senha
+[**Figura 15 – Redefinição de Senha**](imagens/figura15.png)
 
-<img src="imagens/redefinicao-senha.png" alt="Redefinição de Senha" width="45%">
+<a href="imagens/figura15.png">
+<img src="imagens/figura15.png" alt="Redefinição de Senha" width="45%">
+</a>
 
-Figura 16 – Confirmar Código
+[**Figura 16 – Confirmar Código**](imagens/figura16.png)
 
-<img src="imagens/confirmar-codigo.png" alt="Confirmar Código" width="45%">
+<a href="imagens/figura16.png">
+<img src="imagens/figura16.png" alt="Confirmar Código" width="45%">
+</a>
 
-Figura 17 – Nova Senha
+[**Figura 17 – Nova Senha**](imagens/figura17.png)
 
-<img src="imagens/nova-senha.png" alt="Nova Senha" width="45%">
+<a href="imagens/figura17.png">
+<img src="imagens/figura17.png" alt="Nova Senha" width="45%">
+</a>
 
 </div>
 
@@ -821,29 +853,41 @@ Figura 17 – Nova Senha
 
 <div align="center">
 
-Figura 18 – Agendamentos
+[**Figura 18 – Agendamentos**](imagens/figura18.png)
 
-<img src="imagens/agendamentos.png" alt="Agendamentos" width="45%">
+<a href="imagens/figura18.png">
+<img src="imagens/figura18.png" alt="Agendamentos" width="45%">
+</a>
 
-Figura 19 – Cadastrar Agendamento
+[**Figura 19 – Cadastrar Agendamento**](imagens/figura19.png)
 
-<img src="imagens/cadastrar-agendamento.png" alt="Cadastrar Agendamento" width="45%">
+<a href="imagens/figura19.png">
+<img src="imagens/figura19.png" alt="Cadastrar Agendamento" width="45%">
+</a>
 
-Figura 20 – Editar Agendamento
+[**Figura 20 – Editar Agendamento**](imagens/figura19.png)
 
-<img src="imagens/editar-agendamento.png" alt="Editar Agendamento" width="45%">
+<a href="imagens/figura20.png">
+<img src="imagens/figura20.png" alt="Editar Agendamento" width="45%">
+</a>
 
-Figura 21 – Concluir Agendamento
+[**Figura 21 – Concluir Agendamento**](imagens/figura21.png)
 
-<img src="imagens/concluir-agendamento.png" alt="Concluir Agendamento" width="45%">
+<a href="imagens/figura21.png">
+<img src="imagens/figura21.png" alt="Concluir Agendamento" width="45%">
+</a>
 
-Figura 22 – Cancelar Agendamento
+[**Figura 22 – Cancelar Agendamento**](imagens/figura22.png)
 
-<img src="imagens/cancelar-agendamento.png" alt="Cancelar Agendamento" width="45%">
+<a href="imagens/figura22.png">
+<img src="imagens/figura22.png" alt="Cancelar Agendamento" width="45%">
+</a>
 
-Figura 23 – Excluir Agendamento
+[**Figura 23 – Excluir Agendamento**](imagens/figura23.png)
 
-<img src="imagens/excluir-agendamento.png" alt="Excluir Agendamento" width="45%">
+<a href="imagens/figura23.png">
+<img src="imagens/figura23.png" alt="Excluir Agendamento" width="45%">
+</a>
 
 </div>
 
@@ -854,25 +898,35 @@ Figura 23 – Excluir Agendamento
 
 <div align="center">
 
-Figura 24 – Clientes
+[**Figura 24 – Clientes**](imagens/figura24.png)
 
-<img src="imagens/clientes.png" alt="Clientes" width="45%">
+<a href="imagens/figura24.png">
+<img src="imagens/figura24.png" alt="Clientes" width="45%">
+</a>
 
-Figura 25 – Cadastrar Cliente
+[**Figura 25 – Cadastrar Cliente**](imagens/figura25.png)
 
-<img src="imagens/cadastrar-cliente.png" alt="Cadastrar Cliente" width="45%">
+<a href="imagens/figura25.png">
+<img src="imagens/figura25.png" alt="Cadastrar Cliente" width="45%">
+</a>
 
-Figura 26 – Editar Cliente
+[**Figura 26 – Editar Cliente**](imagens/figura26.png)
 
-<img src="imagens/editar-cliente.png" alt="Editar Cliente" width="45%">
+<a href="imagens/figura26.png">
+<img src="imagens/figura26.png" alt="Editar Cliente" width="45%">
+</a>
 
-Figura 27 – Excluir Cliente
+[**Figura 27 – Excluir Cliente**](imagens/figura27.png)
 
-<img src="imagens/excluir-cliente.png" alt="Excluir Cliente" width="45%">
+<a href="imagens/figura27.png">
+<img src="imagens/figura27.png" alt="Excluir Cliente" width="45%">
+</a>
 
-Figura 28 – Histórico do Cliente
+[**Figura 28 – Histórico do Cliente**](imagens/figura28.png)
 
-<img src="imagens/historico-cliente.png" alt="Histórico do Cliente" width="45%">
+<a href="imagens/figura28.png">
+<img src="imagens/figura28.png" alt="Histórico do Cliente" width="45%">
+</a>
 
 </div>
 
@@ -883,21 +937,29 @@ Figura 28 – Histórico do Cliente
 
 <div align="center">
 
-Figura 29 – Serviços
+[**Figura 29 – Serviços**](imagens/figura29.png)
 
-<img src="imagens/servicos.png" alt="Serviços" width="45%">
+<a href="imagens/figura29.png">
+<img src="imagens/figura29.png" alt="Serviços" width="45%">
+</a>
 
-Figura 30 – Cadastrar Serviço
+[**Figura 30 – Cadastrar Serviço**](imagens/figura30.png)
 
-<img src="imagens/cadastrar-servico.png" alt="Cadastrar Serviço" width="45%">
+<a href="imagens/figura30.png">
+<img src="imagens/figura30.png" alt="Cadastrar Serviço" width="45%">
+</a>
 
-Figura 31 – Editar Serviço
+[**Figura 31 – Editar Serviço**](imagens/figura31.png)
 
-<img src="imagens/editar-servico.png" alt="Editar Serviço" width="45%">
+<a href="imagens/figura31.png">
+<img src="imagens/figura31.png" alt="Editar Serviço" width="45%">
+</a>
 
-Figura 32 – Excluir Serviço
+[**Figura 32 – Excluir Serviço**](imagens/figura32.png)
 
-<img src="imagens/excluir-servico.png" alt="Excluir Serviço" width="45%">
+<a href="imagens/figura32.png">
+<img src="imagens/figura32.png" alt="Excluir Serviço" width="45%">
+</a>
 
 </div>
 
@@ -908,17 +970,23 @@ Figura 32 – Excluir Serviço
 
 <div align="center">
 
-Figura 33 – Cadastro de Entrada e Saída
+[**Figura 33 – Cadastro de Entrada e Saída**](imagens/figura33.png)
 
-<img src="imagens/cadastro-entrada-saida.png" alt="Cadastro de Entrada e Saída" width="45%">
+<a href="imagens/figura33.png">
+<img src="imagens/figura33.png" alt="Cadastro de Entrada e Saída" width="45%">
+</a>
 
-Figura 34 – Editar Entrada e Saída
+[**Figura 34 – Editar Entrada e Saída**](imagens/figura34.png)
 
-<img src="imagens/editar-entrada-saida.png" alt="Editar Entrada e Saída" width="45%">
+<a href="imagens/figura34.png">
+<img src="imagens/figura34.png" alt="Editar Entrada e Saída" width="45%">
+</a>
 
-Figura 35 – Excluir Entrada e Saída
+[**Figura 35 – Excluir Entrada e Saída**](imagens/figura35.png)
 
-<img src="imagens/excluir-entrada-saida.png" alt="Excluir Entrada e Saída" width="45%">
+<a href="imagens/figura35.png">
+<img src="imagens/figura35.png" alt="Excluir Entrada e Saída" width="45%">
+</a>
 
 </div>
 
@@ -929,17 +997,23 @@ Figura 35 – Excluir Entrada e Saída
 
 <div align="center">
 
-Figura 36 – Movimentações Diárias
+[**Figura 36 – Movimentações Diárias**](imagens/figura36.png)
 
-<img src="imagens/movimentacoes-diarias.png" alt="Movimentações Diárias" width="45%">
+<a href="imagens/figura36.png">
+<img src="imagens/figura36.png" alt="Movimentações Diárias" width="45%">
+</a>
 
-Figura 37 – Movimentações Semanais
+[**Figura 37 – Movimentações Semanais**](imagens/figura37.png)
 
-<img src="imagens/movimentacoes-semanais.png" alt="Movimentações Semanais" width="45%">
+<a href="imagens/figura37.png">
+<img src="imagens/figura37.png" alt="Movimentações Semanais" width="45%">
+</a>
 
-Figura 38 – Movimentações Mensais
+[**Figura 38 – Movimentações Mensais**](imagens/figura37.png)
 
-<img src="imagens/movimentacoes-mensais.png" alt="Movimentações Mensais" width="45%">
+<a href="imagens/figura37.png">
+<img src="imagens/figura37.png" alt="Movimentações Mensais" width="45%">
+</a>
 
 </div>
 
@@ -950,17 +1024,23 @@ Figura 38 – Movimentações Mensais
 
 <div align="center">
 
-Figura 39 – Resumos Diários
+[**Figura 39 – Resumos Diários**](imagens/figura39.png)
 
-<img src="imagens/resumos-diarios.png" alt="Resumos Diários" width="45%">
+<a href="imagens/figura39.png">
+<img src="imagens/figura39.png" alt="Resumos Diários" width="45%">
+</a>
 
-Figura 40 – Resumos Semanais
+[**Figura 40 – Resumos Semanais**](imagens/figura40.png)
 
-<img src="imagens/resumos-semanais.png" alt="Resumos Semanais" width="45%">
+<a href="imagens/figura40.png">
+<img src="imagens/figura40.png" alt="Resumos Semanais" width="45%">
+</a>
 
-Figura 41 – Resumos Mensais
+[**Figura 41 – Resumos Mensais**](imagens/figura41.png)
 
-<img src="imagens/resumos-mensais.png" alt="Resumos Mensais" width="45%">
+<a href="imagens/figura41.png">
+<img src="imagens/figura42.png" alt="Resumos Mensais" width="45%">
+</a>
 
 </div>
 
@@ -971,21 +1051,62 @@ Figura 41 – Resumos Mensais
 
 <div align="center">
 
-Figura 42 – Editar Perfil
+[**Figura 42 – Editar Perfil**](imagens/figura42_1.png)
 
-<img src="imagens/editar-perfil.png" alt="Editar Perfil" width="45%">
+<a href="imagens/figura42_1.png">
+<img src="imagens/figura42_1.png" alt="Editar Perfil" width="45%">
+</a>
 
-Figura 43 – Métricas Mensais
+<a href="imagens/figura42_2.png">
+<img src="imagens/figura42_2.png" alt="Editar Perfil" width="45%">
+</a>
 
-<img src="imagens/metricas-mensais.png" alt="Métricas Mensais" width="45%">
+<a href="imagens/figura42_3.png">
+<img src="imagens/figura42_3.png" alt="Editar Perfil" width="45%">
+</a>
 
-Figura 44 – Métricas Semanais
+[**Figura 43 – Métricas Mensais**](imagens/figura43.png)
 
-<img src="imagens/metricas-semanais.png" alt="Métricas Semanais" width="45%">
+<a href="imagens/figura43_1.png">
+<img src="imagens/figura43_1.png" alt="Métricas Mensais" width="45%">
+</a>
 
-Figura 45 – Métricas Diárias
+<a href="imagens/figura43_2.png">
+<img src="imagens/figura43_2.png" alt="Métricas Mensais" width="45%">
+</a>
 
-<img src="imagens/metricas-diarias.png" alt="Métricas Diárias" width="45%">
+<a href="imagens/figura43_3.png">
+<img src="imagens/figura43_3.png" alt="Métricas Mensais" width="45%">
+</a>
+
+<a href="imagens/figura43_4.png">
+<img src="imagens/figura43_4.png" alt="Métricas Mensais" width="45%">
+</a>
+
+<a href="imagens/figura43_5.png">
+<img src="imagens/figura43_5.png" alt="Métricas Mensais" width="45%">
+</a>
+
+
+[**Figura 44 – Métricas Semanais**](imagens/figura44.png)
+
+<a href="imagens/figura44_1.png">
+<img src="imagens/figura44_1.png" alt="Métricas Semanais" width="45%">
+</a>
+
+<a href="imagens/figura44_2.png">
+<img src="imagens/figura44_2.png" alt="Métricas Semanais" width="45%">
+</a>
+
+<a href="imagens/figura44_3.png">
+<img src="imagens/figura44_3.png" alt="Métricas Semanais" width="45%">
+</a>
+
+[**Figura 45 – Métricas Diárias**](imagens/figura45.png)
+
+<a href="imagens/figura45.png">
+<img src="imagens/figura45.png" alt="Métricas Diárias" width="45%">
+</a>
 
 </div>
 
@@ -996,17 +1117,23 @@ Figura 45 – Métricas Diárias
 
 <div align="center">
 
-Figura 46 – Painel Administrativo: Clientes Cadastrados
+[**Figura 46 – Painel Administrativo: Clientes Cadastrados**](imagens/afigura46.png)
 
-<img src="imagens/admin-clientes-cadastrados.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
+<a href="imagens/figura46.png">
+<img src="imagens/figura46.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
+</a>
 
-Figura 47 – Painel Administrativo: Prestadores Cadastrados
+[**Figura 47 – Painel Administrativo: Prestadores Cadastrados**](imagens/figura47.png)
 
-<img src="imagens/admin-prestadores-cadastrados.png" alt="Painel Administrativo - Prestadores Cadastrados" width="70%">
+<a href="imagens/figura47.png">
+<img src="imagens/figura47.png" alt="Painel Administrativo - Prestadores Cadastrados" width="70%">
+</a>
 
-Figura 48 – Painel Administrativo: Logs do Sistema
+[**Figura 48 – Painel Administrativo: Logs do Sistema**](imagens/figura48.png)
 
-<img src="imagens/admin-logs-sistema.png" alt="Painel Administrativo - Logs do Sistema" width="70%">
+<a href="imagens/figura48.png">
+<img src="imagens/figura48.png" alt="Painel Administrativo - Logs do Sistema" width="70%">
+</a>
 
 </div>
 
@@ -1017,21 +1144,54 @@ Figura 48 – Painel Administrativo: Logs do Sistema
 
 <div align="center">
 
-Figura 49 – Perfil do Cliente
+[**Figura 49 – Perfil do Cliente**](imagens/figura49.png)
 
-<img src="imagens/perfil-cliente.png" alt="Perfil do Cliente" width="45%">
+<a href="imagens/figura49.png">
+<img src="imagens/figura49.png" alt="Perfil do Cliente" width="45%">
+</a>
 
-Figura 50 – Meus Indicadores Mensais – Cliente
+[**Figura 50 – Meus Indicadores Mensais – Cliente**](imagens/figura50.png)
 
-<img src="imagens/indicadores-mensais-cliente.png" alt="Indicadores Mensais do Cliente" width="45%">
+<a href="imagens/figura50_1.png">
+<img src="imagens/figura50_1.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
 
-Figura 51 – Meus Indicadores Semanais – Cliente
+<a href="imagens/figura50_2.png">
+<img src="imagens/figura50_2.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
 
-<img src="imagens/indicadores-semanais-cliente.png" alt="Indicadores Semanais do Cliente" width="45%">
+<a href="imagens/figura50_3.png">
+<img src="imagens/figura50_3.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
 
-Figura 52 – Meus Indicadores Diários – Cliente
 
-<img src="imagens/indicadores-diarios-cliente.png" alt="Indicadores Diários do Cliente" width="45%">
+[**Figura 51 – Meus Indicadores Semanais – Cliente**](imagens/figura51.png)
+
+<a href="imagens/figura51_1.png">
+<img src="imagens/figura51_1.png" alt="Indicadores Semanais do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura51_2.png">
+<img src="imagens/figura51_2.png" alt="Indicadores Semanais do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura51_3.png">
+<img src="imagens/figura51_3.png" alt="Indicadores Semanais do Cliente" width="45%">
+</a>
+
+[**Figura 52 – Meus Indicadores Diários – Cliente**](imagens/figura52.png)
+
+<a href="imagens/figura52_1.png">
+<img src="imagens/figura52_1.png" alt="Indicadores Diários do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura52_2.png">
+<img src="imagens/figura52_2.png" alt="Indicadores Diários do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura52_3.png">
+<img src="imagens/figura52_3.png" alt="Indicadores Diários do Cliente" width="45%">
+</a>
 
 </div>
 
@@ -1042,7 +1202,6 @@ Figura 52 – Meus Indicadores Diários – Cliente
 Fonte de todas as figuras: Elaborado pelos autores (2026).
 
 </div>
-
 ---
 
 # 12. Considerações finais

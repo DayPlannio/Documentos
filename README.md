@@ -1011,8 +1011,8 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 [**Figura 38 – Movimentações Mensais**](imagens/figura37.png)
 
-<a href="imagens/figura37.png">
-<img src="imagens/figura37.png" alt="Movimentações Mensais" width="45%">
+<a href="imagens/figura38.png">
+<img src="imagens/figura38.png" alt="Movimentações Mensais" width="45%">
 </a>
 
 </div>
@@ -1039,7 +1039,7 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 [**Figura 41 – Resumos Mensais**](imagens/figura41.png)
 
 <a href="imagens/figura41.png">
-<img src="imagens/figura42.png" alt="Resumos Mensais" width="45%">
+<img src="imagens/figura41.png" alt="Resumos Mensais" width="45%">
 </a>
 
 </div>

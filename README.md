@@ -1213,13 +1213,13 @@ O desenvolvimento deste projeto contribuiu para o aprimoramento das habilidades 
 
 # 13. Referências
 
-- ADOBE. **Open Sans.** Disponível em: <https://fonts.adobe.com/fonts/open-sans>. Acesso em: 15 abr. 2026.
-- ADOBE. **Segoe UI.** Disponível em: <https://fonts.adobe.com/fonts/segoe-ui>. Acesso em: 6 out. 2026.
-- CANVA. **Canva.** Disponível em: <https://www.canva.com/pt_br/>. Acesso em: mar. 2026.
-- FIGMA. **Figma.** Disponível em: <https://www.figma.com>. Acesso em: abr. 2026.
-- GITHUB. **GitHub.** Disponível em: <https://github.com>. Acesso em: abr. 2026.
-- LUCIDCHART. **LucidChart.** Disponível em: <https://www.lucidchart.com>. Acesso em: abr. 2026.
+- ADOBE. **Open Sans.** Disponível em: <https://fonts.adobe.com/fonts/open-sans>. Acesso em: set. 2026.
+- ADOBE. **Segoe UI.** Disponível em: <https://fonts.adobe.com/fonts/segoe-ui>. Acesso em: set. 2026.
+- CANVA. **Canva.** Disponível em: <https://www.canva.com/pt_br/>. Acesso em: set. 2026.
+- FIGMA. **Figma.** Disponível em: <https://www.figma.com>. Acesso em: set. 2026.
+- GITHUB. **GitHub.** Disponível em: <https://github.com>. Acesso em: set. 2026.
+- LUCIDCHART. **LucidChart.** Disponível em: <https://www.lucidchart.com>. Acesso em: set. 2026.
 - MICROSOFT. **Azure.** Disponível em: <https://azure.microsoft.com/pt-br/>. Acesso em: out. 2026.
-- MICROSOFT. **Visual Studio.** Disponível em: <https://visualstudio.microsoft.com>. Acesso em: abr. 2026.
-- MONGODB, Inc. **MongoDB.** Disponível em: <https://www.mongodb.com>. Acesso em: abr. 2026.
-- TRELLO. **Trello.** Disponível em: <https://trello.com/pt-BR>. Acesso em: abr. 2026.
+- MICROSOFT. **Visual Studio.** Disponível em: <https://visualstudio.microsoft.com>. Acesso em: out. 2026.
+- MONGODB, Inc. **MongoDB.** Disponível em: <https://www.mongodb.com>. Acesso em: out. 2026.
+- TRELLO. **Trello.** Disponível em: <https://trello.com/pt-BR>. Acesso em: out. 2026.

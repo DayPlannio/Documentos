@@ -808,40 +808,40 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 12 – Cadastro de Usuário**](imagens/figura12.png)
+[**Figura 11 – Cadastro de Usuário**](imagens/figura11.png)
+
+<a href="imagens/figura11.png">
+<img src="imagens/figura11.png" alt="Cadastro de Usuário" width="45%">
+</a>
+
+[**Figura 12 – Planos para o Usuário**](imagens/figura12.png)
 
 <a href="imagens/figura12.png">
-<img src="imagens/figura12.png" alt="Cadastro de Usuário" width="45%">
+<img src="imagens/figura12.png" alt="Planos para o Usuário" width="45%">
 </a>
 
-[**Figura 13 – Planos para o Usuário**](imagens/figura13.png)
+[**Figura 13 – Login do Usuário**](imagens/figura13.png)
 
 <a href="imagens/figura13.png">
-<img src="imagens/figura13.png" alt="Planos para o Usuário" width="45%">
+<img src="imagens/figura13.png" alt="Login do Usuário" width="45%">
 </a>
 
-[**Figura 14 – Login do Usuário**](imagens/figura14.png)
+[**Figura 14 – Redefinição de Senha**](imagens/figura14.png)
 
 <a href="imagens/figura14.png">
-<img src="imagens/figura14.png" alt="Login do Usuário" width="45%">
+<img src="imagens/figura14.png" alt="Redefinição de Senha" width="45%">
 </a>
 
-[**Figura 15 – Redefinição de Senha**](imagens/figura15.png)
+[**Figura 15 – Confirmar Código**](imagens/figura15.png)
 
 <a href="imagens/figura15.png">
-<img src="imagens/figura15.png" alt="Redefinição de Senha" width="45%">
+<img src="imagens/figura15.png" alt="Confirmar Código" width="45%">
 </a>
 
-[**Figura 16 – Confirmar Código**](imagens/figura16.png)
+[**Figura 16 – Nova Senha**](imagens/figura16.png)
 
 <a href="imagens/figura16.png">
-<img src="imagens/figura16.png" alt="Confirmar Código" width="45%">
-</a>
-
-[**Figura 17 – Nova Senha**](imagens/figura17.png)
-
-<a href="imagens/figura17.png">
-<img src="imagens/figura17.png" alt="Nova Senha" width="45%">
+<img src="imagens/figura16.png" alt="Nova Senha" width="45%">
 </a>
 
 </div>
@@ -853,40 +853,40 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 18 – Agendamentos**](imagens/figura18.png)
+[**Figura 17 – Agendamentos**](imagens/figura17.png)
+
+<a href="imagens/figura17.png">
+<img src="imagens/figura17.png" alt="Agendamentos" width="45%">
+</a>
+
+[**Figura 18 – Cadastrar Agendamento**](imagens/figura18.png)
 
 <a href="imagens/figura18.png">
-<img src="imagens/figura18.png" alt="Agendamentos" width="45%">
+<img src="imagens/figura18.png" alt="Cadastrar Agendamento" width="45%">
 </a>
 
-[**Figura 19 – Cadastrar Agendamento**](imagens/figura19.png)
+[**Figura 19 – Editar Agendamento**](imagens/figura19.png)
 
 <a href="imagens/figura19.png">
-<img src="imagens/figura19.png" alt="Cadastrar Agendamento" width="45%">
+<img src="imagens/figura19.png" alt="Editar Agendamento" width="45%">
 </a>
 
-[**Figura 20 – Editar Agendamento**](imagens/figura20.png)
+[**Figura 20 – Concluir Agendamento**](imagens/figura20.png)
 
 <a href="imagens/figura20.png">
-<img src="imagens/figura20.png" alt="Editar Agendamento" width="45%">
+<img src="imagens/figura20.png" alt="Concluir Agendamento" width="45%">
 </a>
 
-[**Figura 21 – Concluir Agendamento**](imagens/figura21.png)
+[**Figura 21 – Cancelar Agendamento**](imagens/figura21.png)
 
 <a href="imagens/figura21.png">
-<img src="imagens/figura21.png" alt="Concluir Agendamento" width="45%">
+<img src="imagens/figura21.png" alt="Cancelar Agendamento" width="45%">
 </a>
 
-[**Figura 22 – Cancelar Agendamento**](imagens/figura22.png)
+[**Figura 22 – Excluir Agendamento**](imagens/figura22.png)
 
 <a href="imagens/figura22.png">
-<img src="imagens/figura22.png" alt="Cancelar Agendamento" width="45%">
-</a>
-
-[**Figura 23 – Excluir Agendamento**](imagens/figura23.png)
-
-<a href="imagens/figura23.png">
-<img src="imagens/figura23.png" alt="Excluir Agendamento" width="45%">
+<img src="imagens/figura22.png" alt="Excluir Agendamento" width="45%">
 </a>
 
 </div>
@@ -898,34 +898,34 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 24 – Clientes**](imagens/figura24.png)
+[**Figura 23 – Clientes**](imagens/figura23.png)
+
+<a href="imagens/figura23.png">
+<img src="imagens/figura23.png" alt="Clientes" width="45%">
+</a>
+
+[**Figura 24 – Cadastrar Cliente**](imagens/figura24.png)
 
 <a href="imagens/figura24.png">
-<img src="imagens/figura24.png" alt="Clientes" width="45%">
+<img src="imagens/figura24.png" alt="Cadastrar Cliente" width="45%">
 </a>
 
-[**Figura 25 – Cadastrar Cliente**](imagens/figura25.png)
+[**Figura 25 – Editar Cliente**](imagens/figura25.png)
 
 <a href="imagens/figura25.png">
-<img src="imagens/figura25.png" alt="Cadastrar Cliente" width="45%">
+<img src="imagens/figura25.png" alt="Editar Cliente" width="45%">
 </a>
 
-[**Figura 26 – Editar Cliente**](imagens/figura26.png)
+[**Figura 26 – Excluir Cliente**](imagens/figura26.png)
 
 <a href="imagens/figura26.png">
-<img src="imagens/figura26.png" alt="Editar Cliente" width="45%">
+<img src="imagens/figura26.png" alt="Excluir Cliente" width="45%">
 </a>
 
-[**Figura 27 – Excluir Cliente**](imagens/figura27.png)
+[**Figura 27 – Histórico do Cliente**](imagens/figura27.png)
 
 <a href="imagens/figura27.png">
-<img src="imagens/figura27.png" alt="Excluir Cliente" width="45%">
-</a>
-
-[**Figura 28 – Histórico do Cliente**](imagens/figura28.png)
-
-<a href="imagens/figura28.png">
-<img src="imagens/figura28.png" alt="Histórico do Cliente" width="45%">
+<img src="imagens/figura27.png" alt="Histórico do Cliente" width="45%">
 </a>
 
 </div>
@@ -937,28 +937,28 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 29 – Serviços**](imagens/figura29.png)
+[**Figura 28 – Serviços**](imagens/figura28.png)
+
+<a href="imagens/figura28.png">
+<img src="imagens/figura28.png" alt="Serviços" width="45%">
+</a>
+
+[**Figura 29 – Cadastrar Serviço**](imagens/figura29.png)
 
 <a href="imagens/figura29.png">
-<img src="imagens/figura29.png" alt="Serviços" width="45%">
+<img src="imagens/figura29.png" alt="Cadastrar Serviço" width="45%">
 </a>
 
-[**Figura 30 – Cadastrar Serviço**](imagens/figura30.png)
+[**Figura 30 – Editar Serviço**](imagens/figura30.png)
 
 <a href="imagens/figura30.png">
-<img src="imagens/figura30.png" alt="Cadastrar Serviço" width="45%">
+<img src="imagens/figura30.png" alt="Editar Serviço" width="45%">
 </a>
 
-[**Figura 31 – Editar Serviço**](imagens/figura31.png)
+[**Figura 31 – Excluir Serviço**](imagens/figura31.png)
 
 <a href="imagens/figura31.png">
-<img src="imagens/figura31.png" alt="Editar Serviço" width="45%">
-</a>
-
-[**Figura 32 – Excluir Serviço**](imagens/figura32.png)
-
-<a href="imagens/figura32.png">
-<img src="imagens/figura32.png" alt="Excluir Serviço" width="45%">
+<img src="imagens/figura31.png" alt="Excluir Serviço" width="45%">
 </a>
 
 </div>
@@ -970,22 +970,22 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 33 – Cadastro de Entrada e Saída**](imagens/figura33.png)
+[**Figura 32 – Cadastro de Entrada e Saída**](imagens/figura32.png)
+
+<a href="imagens/figura32.png">
+<img src="imagens/figura32.png" alt="Cadastro de Entrada e Saída" width="45%">
+</a>
+
+[**Figura 33 – Editar Entrada e Saída**](imagens/figura33.png)
 
 <a href="imagens/figura33.png">
-<img src="imagens/figura33.png" alt="Cadastro de Entrada e Saída" width="45%">
+<img src="imagens/figura33.png" alt="Editar Entrada e Saída" width="45%">
 </a>
 
-[**Figura 34 – Editar Entrada e Saída**](imagens/figura34.png)
+[**Figura 34 – Excluir Entrada e Saída**](imagens/figura34.png)
 
 <a href="imagens/figura34.png">
-<img src="imagens/figura34.png" alt="Editar Entrada e Saída" width="45%">
-</a>
-
-[**Figura 35 – Excluir Entrada e Saída**](imagens/figura35.png)
-
-<a href="imagens/figura35.png">
-<img src="imagens/figura35.png" alt="Excluir Entrada e Saída" width="45%">
+<img src="imagens/figura34.png" alt="Excluir Entrada e Saída" width="45%">
 </a>
 
 </div>
@@ -997,22 +997,22 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 36 – Movimentações Diárias**](imagens/figura36.png)
+[**Figura 35 – Movimentações Diárias**](imagens/figura35.png)
+
+<a href="imagens/figura35.png">
+<img src="imagens/figura35.png" alt="Movimentações Diárias" width="45%">
+</a>
+
+[**Figura 36 – Movimentações Semanais**](imagens/figura36.png)
 
 <a href="imagens/figura36.png">
-<img src="imagens/figura36.png" alt="Movimentações Diárias" width="45%">
+<img src="imagens/figura36.png" alt="Movimentações Semanais" width="45%">
 </a>
 
-[**Figura 37 – Movimentações Semanais**](imagens/figura37.png)
+[**Figura 37 – Movimentações Mensais**](imagens/figura37.png)
 
 <a href="imagens/figura37.png">
-<img src="imagens/figura37.png" alt="Movimentações Semanais" width="45%">
-</a>
-
-[**Figura 38 – Movimentações Mensais**](imagens/figura37.png)
-
-<a href="imagens/figura38.png">
-<img src="imagens/figura38.png" alt="Movimentações Mensais" width="45%">
+<img src="imagens/figura37.png" alt="Movimentações Mensais" width="45%">
 </a>
 
 </div>
@@ -1024,22 +1024,22 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 39 – Resumos Diários**](imagens/figura39.png)
+[**Figura 38 – Resumos Diários**](imagens/figura38.png)
+
+<a href="imagens/figura38.png">
+<img src="imagens/figura38.png" alt="Resumos Diários" width="45%">
+</a>
+
+[**Figura 39 – Resumos Semanais**](imagens/figura39.png)
 
 <a href="imagens/figura39.png">
-<img src="imagens/figura39.png" alt="Resumos Diários" width="45%">
+<img src="imagens/figura39.png" alt="Resumos Semanais" width="45%">
 </a>
 
-[**Figura 40 – Resumos Semanais**](imagens/figura40.png)
+[**Figura 40 – Resumos Mensais**](imagens/figura40.png)
 
 <a href="imagens/figura40.png">
-<img src="imagens/figura40.png" alt="Resumos Semanais" width="45%">
-</a>
-
-[**Figura 41 – Resumos Mensais**](imagens/figura41.png)
-
-<a href="imagens/figura41.png">
-<img src="imagens/figura41.png" alt="Resumos Mensais" width="45%">
+<img src="imagens/figura40.png" alt="Resumos Mensais" width="45%">
 </a>
 
 </div>
@@ -1051,61 +1051,61 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 42 – Editar Perfil**](imagens/figura42_1.png)
+[**Figura 41 – Editar Perfil**](imagens/figura41_1.png)
+
+<a href="imagens/figura41_1.png">
+<img src="imagens/figura41_1.png" alt="Editar Perfil" width="45%">
+</a>
+
+<a href="imagens/figura41_2.png">
+<img src="imagens/figura41_2.png" alt="Editar Perfil" width="45%">
+</a>
+
+<a href="imagens/figura41_3.png">
+<img src="imagens/figura41_3.png" alt="Editar Perfil" width="45%">
+</a>
+
+[**Figura 42 – Métricas Mensais**](imagens/figura42_1.png)
 
 <a href="imagens/figura42_1.png">
-<img src="imagens/figura42_1.png" alt="Editar Perfil" width="45%">
+<img src="imagens/figura42_1.png" alt="Métricas Mensais" width="45%">
 </a>
 
 <a href="imagens/figura42_2.png">
-<img src="imagens/figura42_2.png" alt="Editar Perfil" width="45%">
+<img src="imagens/figura42_2.png" alt="Métricas Mensais" width="45%">
 </a>
 
 <a href="imagens/figura42_3.png">
-<img src="imagens/figura42_3.png" alt="Editar Perfil" width="45%">
+<img src="imagens/figura42_3.png" alt="Métricas Mensais" width="45%">
 </a>
 
-[**Figura 43 – Métricas Mensais**](imagens/figura43.png)
+<a href="imagens/figura42_4.png">
+<img src="imagens/figura42_4.png" alt="Métricas Mensais" width="45%">
+</a>
+
+<a href="imagens/figura42_5.png">
+<img src="imagens/figura42_5.png" alt="Métricas Mensais" width="45%">
+</a>
+
+
+[**Figura 43 – Métricas Semanais**](imagens/figura43_1.png)
 
 <a href="imagens/figura43_1.png">
-<img src="imagens/figura43_1.png" alt="Métricas Mensais" width="45%">
+<img src="imagens/figura43_1.png" alt="Métricas Semanais" width="45%">
 </a>
 
 <a href="imagens/figura43_2.png">
-<img src="imagens/figura43_2.png" alt="Métricas Mensais" width="45%">
+<img src="imagens/figura43_2.png" alt="Métricas Semanais" width="45%">
 </a>
 
 <a href="imagens/figura43_3.png">
-<img src="imagens/figura43_3.png" alt="Métricas Mensais" width="45%">
+<img src="imagens/figura43_3.png" alt="Métricas Semanais" width="45%">
 </a>
 
-<a href="imagens/figura43_4.png">
-<img src="imagens/figura43_4.png" alt="Métricas Mensais" width="45%">
-</a>
+[**Figura 44 – Métricas Diárias**](imagens/figura44.png)
 
-<a href="imagens/figura43_5.png">
-<img src="imagens/figura43_5.png" alt="Métricas Mensais" width="45%">
-</a>
-
-
-[**Figura 44 – Métricas Semanais**](imagens/figura44.png)
-
-<a href="imagens/figura44_1.png">
-<img src="imagens/figura44_1.png" alt="Métricas Semanais" width="45%">
-</a>
-
-<a href="imagens/figura44_2.png">
-<img src="imagens/figura44_2.png" alt="Métricas Semanais" width="45%">
-</a>
-
-<a href="imagens/figura44_3.png">
-<img src="imagens/figura44_3.png" alt="Métricas Semanais" width="45%">
-</a>
-
-[**Figura 45 – Métricas Diárias**](imagens/figura45.png)
-
-<a href="imagens/figura45.png">
-<img src="imagens/figura45.png" alt="Métricas Diárias" width="45%">
+<a href="imagens/figura44.png">
+<img src="imagens/figura44.png" alt="Métricas Diárias" width="45%">
 </a>
 
 </div>
@@ -1117,22 +1117,22 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 46 – Painel Administrativo: Clientes Cadastrados**](imagens/figura46.png)
+[**Figura 45 – Painel Administrativo: Clientes Cadastrados**](imagens/figura45.png)
+
+<a href="imagens/figura45.png">
+<img src="imagens/figura45.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
+</a>
+
+[**Figura 46 – Painel Administrativo: Prestadores Cadastrados**](imagens/figura46.png)
 
 <a href="imagens/figura46.png">
-<img src="imagens/figura46.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
+<img src="imagens/figura46.png" alt="Painel Administrativo - Prestadores Cadastrados" width="70%">
 </a>
 
-[**Figura 47 – Painel Administrativo: Prestadores Cadastrados**](imagens/figura47.png)
+[**Figura 47 – Painel Administrativo: Logs do Sistema**](imagens/figura47.png)
 
 <a href="imagens/figura47.png">
-<img src="imagens/figura47.png" alt="Painel Administrativo - Prestadores Cadastrados" width="70%">
-</a>
-
-[**Figura 48 – Painel Administrativo: Logs do Sistema**](imagens/figura48.png)
-
-<a href="imagens/figura48.png">
-<img src="imagens/figura48.png" alt="Painel Administrativo - Logs do Sistema" width="70%">
+<img src="imagens/figura47.png" alt="Painel Administrativo - Logs do Sistema" width="70%">
 </a>
 
 </div>
@@ -1144,53 +1144,53 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 49 – Perfil do Cliente**](imagens/figura49.png)
+[**Figura 48 – Perfil do Cliente**](imagens/figura48.png)
 
-<a href="imagens/figura49.png">
-<img src="imagens/figura49.png" alt="Perfil do Cliente" width="45%">
+<a href="imagens/figura48.png">
+<img src="imagens/figura48.png" alt="Perfil do Cliente" width="45%">
 </a>
 
-[**Figura 50 – Meus Indicadores Mensais – Cliente**](imagens/figura50.png)
+[**Figura 49 – Meus Indicadores Mensais – Cliente**](imagens/figura49_1.png)
+
+<a href="imagens/figura49_1.png">
+<img src="imagens/figura49_1.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura49_2.png">
+<img src="imagens/figura49_2.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
+
+<a href="imagens/figura49_3.png">
+<img src="imagens/figura49_3.png" alt="Indicadores Mensais do Cliente" width="45%">
+</a>
+
+
+[**Figura 50 – Meus Indicadores Semanais – Cliente**](imagens/figura50_1.png)
 
 <a href="imagens/figura50_1.png">
-<img src="imagens/figura50_1.png" alt="Indicadores Mensais do Cliente" width="45%">
+<img src="imagens/figura50_1.png" alt="Indicadores Semanais do Cliente" width="45%">
 </a>
 
 <a href="imagens/figura50_2.png">
-<img src="imagens/figura50_2.png" alt="Indicadores Mensais do Cliente" width="45%">
+<img src="imagens/figura50_2.png" alt="Indicadores Semanais do Cliente" width="45%">
 </a>
 
 <a href="imagens/figura50_3.png">
-<img src="imagens/figura50_3.png" alt="Indicadores Mensais do Cliente" width="45%">
+<img src="imagens/figura50_3.png" alt="Indicadores Semanais do Cliente" width="45%">
 </a>
 
-
-[**Figura 51 – Meus Indicadores Semanais – Cliente**](imagens/figura51.png)
+[**Figura 51 – Meus Indicadores Diários – Cliente**](imagens/figura51_1.png)
 
 <a href="imagens/figura51_1.png">
-<img src="imagens/figura51_1.png" alt="Indicadores Semanais do Cliente" width="45%">
+<img src="imagens/figura51_1.png" alt="Indicadores Diários do Cliente" width="45%">
 </a>
 
 <a href="imagens/figura51_2.png">
-<img src="imagens/figura51_2.png" alt="Indicadores Semanais do Cliente" width="45%">
+<img src="imagens/figura51_2.png" alt="Indicadores Diários do Cliente" width="45%">
 </a>
 
 <a href="imagens/figura51_3.png">
-<img src="imagens/figura51_3.png" alt="Indicadores Semanais do Cliente" width="45%">
-</a>
-
-[**Figura 52 – Meus Indicadores Diários – Cliente**](imagens/figura52.png)
-
-<a href="imagens/figura52_1.png">
-<img src="imagens/figura52_1.png" alt="Indicadores Diários do Cliente" width="45%">
-</a>
-
-<a href="imagens/figura52_2.png">
-<img src="imagens/figura52_2.png" alt="Indicadores Diários do Cliente" width="45%">
-</a>
-
-<a href="imagens/figura52_3.png">
-<img src="imagens/figura52_3.png" alt="Indicadores Diários do Cliente" width="45%">
+<img src="imagens/figura51_3.png" alt="Indicadores Diários do Cliente" width="45%">
 </a>
 
 </div>

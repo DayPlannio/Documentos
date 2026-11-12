@@ -865,7 +865,7 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 <img src="imagens/figura19.png" alt="Cadastrar Agendamento" width="45%">
 </a>
 
-[**Figura 20 – Editar Agendamento**](imagens/figura19.png)
+[**Figura 20 – Editar Agendamento**](imagens/figura20.png)
 
 <a href="imagens/figura20.png">
 <img src="imagens/figura20.png" alt="Editar Agendamento" width="45%">
@@ -1117,7 +1117,7 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 
 <div align="center">
 
-[**Figura 46 – Painel Administrativo: Clientes Cadastrados**](imagens/afigura46.png)
+[**Figura 46 – Painel Administrativo: Clientes Cadastrados**](imagens/figura46.png)
 
 <a href="imagens/figura46.png">
 <img src="imagens/figura46.png" alt="Painel Administrativo - Clientes Cadastrados" width="70%">
@@ -1202,6 +1202,7 @@ A seguir, são apresentadas as principais telas desenvolvidas no sistema DayPlan
 Fonte de todas as figuras: Elaborado pelos autores (2026).
 
 </div>
+
 ---
 
 # 12. Considerações finais
@@ -1214,10 +1215,11 @@ O desenvolvimento deste projeto contribuiu para o aprimoramento das habilidades 
 
 - ADOBE. **Open Sans.** Disponível em: <https://fonts.adobe.com/fonts/open-sans>. Acesso em: 15 abr. 2026.
 - ADOBE. **Segoe UI.** Disponível em: <https://fonts.adobe.com/fonts/segoe-ui>. Acesso em: 6 out. 2026.
-- CANVA. **Canva**. Disponível em: <https://www.canva.com/pt_br/>. Acesso em: mar. 2026.
-- FIGMA. **Figma**. Disponível em: <https://www.figma.com>. Acesso em: abr. 2026.
-- LUCIDCHART. **LucidChart**. Disponível em: <https://www.lucidchart.com>. Acesso em: abr. 2026.
-- MICROSOFT. **Visual Studio**. Disponível em: <https://visualstudio.microsoft.com>. Acesso em: abr. 2026.
-- MONGODB, Inc. **MongoDB**. Disponível em: <https://www.mongodb.com>. Acesso em: abr. 2026.
-- GITHUB. **GitHub**. Disponível em: <https://github.com>. Acesso em: abr. 2026.
-- TRELLO. **Trello**. Disponível em: <https://trello.com/pt-BR>. Acesso em: abr. 2026.
+- CANVA. **Canva.** Disponível em: <https://www.canva.com/pt_br/>. Acesso em: mar. 2026.
+- FIGMA. **Figma.** Disponível em: <https://www.figma.com>. Acesso em: abr. 2026.
+- GITHUB. **GitHub.** Disponível em: <https://github.com>. Acesso em: abr. 2026.
+- LUCIDCHART. **LucidChart.** Disponível em: <https://www.lucidchart.com>. Acesso em: abr. 2026.
+- MICROSOFT. **Azure.** Disponível em: <https://azure.microsoft.com/pt-br/>. Acesso em: out. 2026.
+- MICROSOFT. **Visual Studio.** Disponível em: <https://visualstudio.microsoft.com>. Acesso em: abr. 2026.
+- MONGODB, Inc. **MongoDB.** Disponível em: <https://www.mongodb.com>. Acesso em: abr. 2026.
+- TRELLO. **Trello.** Disponível em: <https://trello.com/pt-BR>. Acesso em: abr. 2026.

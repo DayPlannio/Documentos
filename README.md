@@ -126,7 +126,7 @@ Requisitos funcionais são as especificações detalhadas das funcionalidades qu
 | RF42 | Autorizar Foto no Portfólio | Permitir que o administrador aprove ou recuse a foto de atendimento enviada pelo prestador. |
 | RF43 | Definir Visibilidade da Cidade | Permitir que o prestador cadastre sua cidade e defina se ela será exibida publicamente (ex.: no portfólio público) ou mantida privada, visível apenas para o próprio prestador. |
 | RF44 | Exibir Planos Disponíveis | Permitir que o prestador visualize os planos de assinatura (Básico, Profissional e Full), com o valor mensal e as funcionalidades incluídas em cada um. |
-| RF45 | Assinar Plano | Permitir que o prestador escolha e solicite a assinatura de um dos planos disponíveis: Básico (R$ 9,90), Profissional (R$ 19,90) ou Full (R$ 29,90), ficando a ativação sujeita à aprovação do administrador. |
+| RF45 | Assinar Plano | Permitir que o prestador escolha e solicite a assinatura de um dos planos disponíveis: Básico (R$ 12,90), Profissional (R$ 29,90) ou Full (R$ 39,90), ficando a ativação sujeita à aprovação do administrador. |
 | RF46 | Alterar Plano | Permitir que o prestador solicite upgrade ou downgrade do plano contratado, ficando a alteração sujeita à aprovação do administrador. |
 | RF47 | Cancelar Assinatura | Permitir que o prestador cancele a assinatura do plano contratado. |
 | RF48 | Controlar Acesso às Funcionalidades por Plano | Liberar ou bloquear automaticamente as funcionalidades conforme o plano aprovado do prestador: Básico (agendamentos, agenda, clientes, histórico, tipos de serviço e perfil), Profissional (tudo do Básico, além de financeiro e métricas do prestador) e Full (tudo do Profissional, além de portfólio público, fotos, área e métricas do cliente e geofencing). |
@@ -225,7 +225,7 @@ Os requisitos não funcionais referem-se às características e restrições do 
 **Pré-condições:** prestador autenticado.
 
 **Fluxo Principal:**
-1. **Exibir Planos** — o prestador visualiza os planos Básico (R$ 9,90), Profissional (R$ 19,90) e Full (R$ 29,90), com as funcionalidades de cada um.
+1. **Exibir Planos** — o prestador visualiza os planos Básico (R$ 12,90), Profissional (R$ 29,90) e Full (R$ 39,90), com as funcionalidades de cada um.
 2. **Solicitar Assinatura ou Alteração** — o prestador escolhe um plano e envia a solicitação (assinatura, upgrade ou downgrade).
 3. **Aguardar Aprovação** — o administrador analisa a solicitação (ver "Gerenciar Assinaturas").
 4. **Ativação** — com a solicitação aprovada, o plano é ativado e as funcionalidades correspondentes são liberadas.
@@ -694,9 +694,9 @@ Para a elaboração do modelo de negócio, foi utilizado o **Modelo de Negócio 
 
 | Plano | Valor | Funcionalidades |
 |---|---|---|
-| Básico | R$&nbsp;9,90 | Criar, editar e cancelar agendamentos; visualizar agenda; cadastrar clientes; histórico de clientes; cadastrar tipos de serviço; perfil do profissional |
-| Profissional | R$&nbsp;19,90 | Tudo do Básico; entradas e saídas financeiras; cálculo de lucro e lucro geral; relatórios financeiros; métricas do prestador |
-| Full | R$&nbsp;29,90 | Tudo do Profissional; portfólio público; upload de fotos dos serviços; área do cliente e métricas do cliente; geolocalização e geofencing |
+| Básico | R$&nbsp;12,90 | Criar, editar e cancelar agendamentos; visualizar agenda; cadastrar clientes; histórico de clientes; cadastrar tipos de serviço; perfil do profissional |
+| Profissional | R$&nbsp;29,90 | Tudo do Básico; entradas e saídas financeiras; cálculo de lucro e lucro geral; relatórios financeiros; métricas do prestador |
+| Full | R$&nbsp;39,90 | Tudo do Profissional; portfólio público; upload de fotos dos serviços; área do cliente e métricas do cliente; geolocalização e geofencing |
 
 Novos usuários ganham 7 dias grátis no plano Full, para testar todos os recursos da plataforma antes de escolher o plano ideal.
 
